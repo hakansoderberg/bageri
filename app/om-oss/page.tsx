@@ -16,7 +16,9 @@ const AboutUsPage = () => {
 
             <p className="text-lg mb-4">
                 Vi strävar efter att ge våra kunder en smakupplevelse utöver det vanliga, med en personlig touch och en
-                passion för det vi gör.
+                passion för det vi gör
+
+                Jepp det funkar
             </p>
 
         </div>
