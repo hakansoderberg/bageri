@@ -13,9 +13,9 @@ const SortimentPage = () => {
     return (
         <div>
             <h1>Sortiment</h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 md:gap-8 gap-4">
                 {images.map((image, index) => (
-                    <div key={index} className="w-full h-[300px] relative">
+                    <div key={index} className="w-full  h-[150px] md:h-[300px] relative">
                         <Image src={image} alt="Semla från" fill className="rounded-lg shadow-lg object-cover" />
                     </div>
                 ))}
