@@ -1,5 +1,4 @@
 import Image from "next/image";
-import H1 from "../component/h1";
 
 const images = [
     "/images/semla1.jpg",
@@ -13,7 +12,7 @@ const images = [
 const SortimentPage = () => {
     return (
         <div>
-            <H1 title="Sortiment" />
+            <h1>Sortiment</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {images.map((image, index) => (
                     <div key={index} className="w-full h-[300px] relative">

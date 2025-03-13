@@ -1,9 +1,8 @@
-import H1 from "../component/h1";
 
 const Contact = () => {
     return (
         <div>
-            <H1 title="Kontakt" />
+            <h1>Kontakt</h1>
 
             <p className="text-lg mb-4">Välkommen till Bageri! Vi är alltid glada att höra från våra kunder.</p>
 

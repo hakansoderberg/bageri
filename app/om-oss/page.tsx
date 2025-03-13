@@ -1,9 +1,8 @@
-import H1 from "../component/h1";
 
 const AboutUsPage = () => {
     return (
         <div>
-            <H1 title="Om oss" />
+            <h1>Om oss</h1>
             <p className="text-lg mb-4">
                 Välkommen till Bageri! Vi är ett familjedrivet bageri som specialiserar oss på traditionella och
                 nyskapande bakverk.
