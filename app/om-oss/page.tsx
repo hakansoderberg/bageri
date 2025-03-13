@@ -19,9 +19,6 @@ const AboutUsPage = () => {
                 passion för det vi gör.
             </p>
 
-            <p className="text-lg mb-4">
-                Kom förbi och upptäck vårt sortiment – vi ser fram emot att dela våra bakverk med dig!
-            </p>
         </div>
     );
 };
