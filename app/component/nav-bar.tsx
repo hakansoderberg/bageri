@@ -18,13 +18,13 @@ const NavBar: React.FC = () => {
             </Link>
 
             <Link
-                href="/about"
+                href="/om-oss"
                 className="text-black text-lg  px-4 py-2 rounded-lg hover:bg-gray-200 transition-all duration-200"
             >
                 Om oss
             </Link>
             <Link
-                href="/contact"
+                href="/kontakt"
                 className="text-black text-lg  px-4 py-2 rounded-lg hover:bg-gray-200 transition-all duration-200"
             >
                 Kontakt
