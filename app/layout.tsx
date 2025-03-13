@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./component/header";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -27,6 +28,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-neutral-50 text-neutral-900`}>
                 <Header />
+                <HamburgerMenuIcon className="p-4  " />
                 <div className="max-w-screen-lg mx-auto px-4 py-16">{children}</div>
             </body>
         </html>

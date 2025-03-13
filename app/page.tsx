@@ -1,5 +1,6 @@
 import Image from "next/image";
 import H1 from "./component/h1";
+import Paragraph from "./component/paragraph";
 
 const Home = () => {
     return (
@@ -7,11 +8,11 @@ const Home = () => {
             <main >
                     <H1 title="Välkommen till Bageri" />
                     <div className="flex flex-col md:flex-row items-center justify-evenly mb-8">
-                        <p className="text-xl text-gray-700 pr-8">
+                        <Paragraph className="pr-8">
                             På Bageriet hittar du de godaste bröden, bakverken och konditorivarorna. Vi bakar allt med
                             omsorg, tradition och kärlek för detaljer. Våra produkter är skapade av de finaste råvarorna
                             för att ge dig den bästa möjliga smaken.
-                        </p>
+                        </Paragraph>
 
                         <Image
                             src="/images/semla1.jpg"
