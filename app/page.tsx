@@ -13,7 +13,7 @@ const Home = () => {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
                     {images.map((image, index) => (
-                        <div key={index} className="w-full h-[300px] relative">
+                        <div key={index} className="w-full h-[250px] relative">
                             <Image src={image} alt="Semla från" fill className="rounded-lg shadow-lg object-cover" />
                         </div>
                     ))}
@@ -22,15 +22,6 @@ const Home = () => {
                     Vi erbjuder ett brett sortiment av nybakade varor, från klassiska frallor till läckra tårtor och
                     småkakor. Kom förbi och njut av vårt utbud eller beställ online!
                 </p>
-
-                <div className="mt-8">
-                    <a
-                        href="/om-oss"
-                        className="inline-block px-8 py-3 text-white bg-black rounded-lg hover:bg-gray-800 transition duration-300"
-                    >
-                        Läs mer om oss
-                    </a>
-                </div>
             </main>
         </div>
     );
