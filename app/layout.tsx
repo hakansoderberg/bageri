@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./component/header";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import Footer from "./component/footer";
 
 export const metadata: Metadata = {
@@ -23,9 +22,7 @@ export default function RootLayout({
                 />
             </head>
             <body className={`antialiased bg-orange-50 text-gray-900`}>
-                {/* <body className={`antialiased bg-orange-50 text-orange-300`}> */}
                 <Header />
-                <HamburgerMenuIcon className="p-4  " />
                 <div className="max-w-screen-lg mx-auto px-4 pt-8 pb-16">{children}</div>
                 <Footer />
             </body>
