@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import HamburgerIcon from "./hamburger-icon";
 import CloseIcon from "./close-icon";
 import { useRouter } from "next/navigation";
@@ -9,8 +9,7 @@ const NavBarMobile: React.FC = () => {
 
     const navigate = (path: string) => {
         router.push(path);
-        setIsOpen(false)
-
+        setIsOpen(false);
     };
 
     return (
