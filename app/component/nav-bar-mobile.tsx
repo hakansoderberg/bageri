@@ -1,61 +1,48 @@
 "use client";
-import React, { useState } from "react";
-import Link from "next/link";
+import React, { useEffect, useState } from "react";
 import HamburgerIcon from "./hamburger-icon";
 import CloseIcon from "./close-icon";
+import { useRouter } from "next/navigation";
 const NavBarMobile: React.FC = () => {
+    const router = useRouter();
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen); // Växlar mellan att öppna och stänga menyn
+    const navigate = (path: string) => {
+        router.push(path);
+        setIsOpen(false)
+
     };
 
     return (
         <>
             {isOpen && (
                 <div className="fixed top-8 right-4 z-50">
-                    <CloseIcon onClick={toggleMenu} />
+                    <CloseIcon onClick={() => setIsOpen(false)} />
                 </div>
             )}
             {!isOpen && (
                 <div className="fixed top-8 right-4 z-50">
-                    <HamburgerIcon onClick={toggleMenu} />
+                    <HamburgerIcon onClick={() => setIsOpen(true)} />
                 </div>
             )}
 
             <div
                 className={`${
-                    isOpen ? "block" : "hidden"
-                } fixed top-0 left-0 w-full h-full bg-neutral-50 bg-opacity-80 z-40 flex flex-col items-center justify-center space-y-6`}
+                    isOpen ? "translate-y-0" : "-translate-y-full"
+                } fixed top-0 left-0 w-full bg-neutral-50 bg-opacity-80 z-40 flex flex-col items-center justify-start space-y-6 py-24 transition-transform duration-300`}
             >
-                <Link
-                    href="/"
-                    className="text-xl font-semibold"
-                    onClick={toggleMenu}
-                >
+                <button className="text-xl font-semibold" onClick={() => navigate("/")}>
                     Hem
-                </Link>
-                <Link
-                    href="/sortiment"
-                    className="text-xl font-semibold"
-                    onClick={toggleMenu}
-                >
+                </button>
+                <button className="text-xl font-semibold" onClick={() => navigate("/sortiment")}>
                     Sortiment
-                </Link>
-                <Link
-                    href="/om-oss"
-                    className="text-xl font-semibold"
-                    onClick={toggleMenu}
-                >
+                </button>
+                <button className="text-xl font-semibold" onClick={() => navigate("/om-oss")}>
                     Om oss
-                </Link>
-                <Link
-                    href="/kontakt"
-                    className="text-xl font-semibold"
-                    onClick={toggleMenu}
-                >
+                </button>
+                <button className="text-xl font-semibold" onClick={() => navigate("/kontakt")}>
                     Kontakt
-                </Link>
+                </button>
             </div>
         </>
     );

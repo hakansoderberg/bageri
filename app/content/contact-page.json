@@ -1,0 +1,16 @@
+{
+    "title": "Kontakt",
+    "intro": "Välkommen till Bageri! Vi är alltid glada att höra från våra kunder.",
+    "description": "Har du några frågor om våra produkter, öppettider eller vill du beställa något specifikt? Tveka inte att kontakta oss!",
+    "address": "Bageri AB, Storgatan 123, 123 45, Stad",
+    "phone": "012-345 6789",
+    "email": "info@bageri.se",
+    "openingHours": {
+        "title": "Öppettider",
+        "hours": [
+            "Måndag - Fredag: 07:00 - 18:00",
+            "Lördag: 08:00 - 16:00",
+            "Söndag: Stängt"
+        ]
+    }
+}

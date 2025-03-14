@@ -1,0 +1,13 @@
+{
+    "title": "Sortiment",
+    "description": "På Bageri erbjuder vi ett brett sortiment av nybakade godsaker för alla smaker. Från klassiska frallor och surdegsbröd till saftiga kanelbullar och lyxiga tårtor. Oavsett om du är sugen på något sött till fikat eller ett rustikt bröd till middagen, har vi något för dig. Allt bakas med noggrant utvalda ingredienser och mycket kärlek. Välkommen in och hitta din favorit!",
+    "images": [
+        { "url": "/images/semla1.jpg", "alt": "Semla från Bageri" },
+        { "url": "/images/cake1.png", "alt": "Cake från Bageri" },
+        { "url": "/images/cake2.png", "alt": "Cake från Bageri" },
+        { "url": "/images/bread1.png", "alt": "Bread från Bageri" },
+        { "url": "/images/bread2.png", "alt": "Bread från Bageri" },
+        { "url": "/images/bread3.png", "alt": "Bread från Bageri" },
+        { "url": "/images/bread4.png", "alt": "Bread från Bageri" }
+    ]
+}
