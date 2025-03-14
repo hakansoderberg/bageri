@@ -1,0 +1,10 @@
+{
+    "title": "Bakelser",
+    "text1": "Vi erbjuder ett brett utbud av bakverk och sötsaker. Från mjuka bullar till härliga kakor och klassiska bakelser. Varje bakelse är tillagad med kärlek och de bästa råvarorna.",
+    "text2": "Följ oss på Instagram för att hålla dig uppdaterad om dagens bakverk och nyheter. Vi delar ofta bilder på våra nybakade bakelser och andra godsaker.",
+    "grid": [
+        { "url": "/images/bakelse1.jpg", "alt": "Bakelse" },
+        { "url": "/images/bakelse2.jpg", "alt": "Bakelse" },
+        { "url": "/images/bakelse3.jpg", "alt": "Bakelse" }
+    ]
+}

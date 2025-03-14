@@ -1,0 +1,11 @@
+{
+    "title": "Tårtor",
+    "text1": "Vi erbjuder ett brett utbud av tårtor, från klassiska favoriter till specialtårtor för alla tillfällen. Oavsett om du letar efter något litet eller en stor tårta, har vi något som passar.",
+    "text2":  "Följ oss på Instagram för att hålla dig uppdaterad om dagens tårtor och nyheter. Vi delar ofta bilder på våra nybakade tårtor och andra bakverk – du vill inte missa något!",
+    "bigCakeImage": { "url": "/images/tarta4.jpg", "alt": "Tårta" },
+    "grid": [
+        { "url": "/images/tarta1.jpg", "alt": "Tårta 1" },
+        { "url": "/images/tarta2.jpg", "alt": "Tårta 2" },
+        { "url": "/images/tarta3.jpg", "alt": "Tårta 3" }
+    ]
+}

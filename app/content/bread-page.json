@@ -1,0 +1,10 @@
+{
+    "title": "Bröd",
+    "text1": "Hos oss hittar du ett brett sortiment av nybakat bröd, från klassiska surdegsbröd till saftiga frallor och specialbröd. Vi bakar med noggrant utvalda ingredienser för att ge dig den bästa smaken.",
+    "text2": "Följ oss på Instagram för att hålla dig uppdaterad om våra nybakade bröd och få en glimt av dagens specialiteter. Vi delar ofta bilder på vårt senaste brödutbud.",
+    "grid": [
+        { "url": "/images/brod2.jpg", "alt": "Bröd" },
+        { "url": "/images/brod3.jpg", "alt": "Bröd" },
+        { "url": "/images/brod4.jpg", "alt": "Bröd" }
+    ]
+}

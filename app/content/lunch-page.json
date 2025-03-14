@@ -1,0 +1,10 @@
+{
+    "title": "Luncher",
+    "text1": "Varje vecka erbjuder vi ett varierat utbud av läckra lunchalternativ, inklusive smörgåstårta, fräscha sallader och matlådor. Vi strävar efter att erbjuda något för alla smaker och håller våra menyer säsongsanpassade.",
+    "text2": "Följ oss på Instagram för att hålla dig uppdaterad om veckans luncherbjudanden. Vi delar dagligen bilder och information om våra senaste luncher så att du inte missar något!",
+    "grid": [
+        { "url": "/images/smorgastarta.jpg", "alt": "Smörgåstårta" },
+        { "url": "/images/sallad2.jpg", "alt": "Sallad" },
+        { "url": "/images/lunch2.jpg", "alt": "Matlåda" }
+    ]
+}

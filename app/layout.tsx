@@ -4,8 +4,8 @@ import Header from "./component/header";
 import Footer from "./component/footer";
 
 export const metadata: Metadata = {
-    title: "Haugen baugen",
-    description: "Bageri haugen baugen",
+    title: "Hagabagarn",
+    description: "Hagabagarn",
 };
 
 export default function RootLayout({
