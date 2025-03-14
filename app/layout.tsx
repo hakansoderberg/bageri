@@ -22,7 +22,8 @@ export default function RootLayout({
                     rel="stylesheet"
                 />
             </head>
-            <body className={`antialiased bg-neutral-50 text-neutral-800`}>
+            <body className={`antialiased bg-orange-50 text-gray-900`}>
+                {/* <body className={`antialiased bg-orange-50 text-orange-300`}> */}
                 <Header />
                 <HamburgerMenuIcon className="p-4  " />
                 <div className="max-w-screen-lg mx-auto px-4 pt-8 pb-16">{children}</div>
