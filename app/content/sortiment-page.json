@@ -1,13 +1,21 @@
 {
     "title": "Sortiment",
     "description": "På Bageri erbjuder vi ett brett sortiment av nybakade godsaker för alla smaker. Från klassiska frallor och surdegsbröd till saftiga kanelbullar och lyxiga tårtor. Oavsett om du är sugen på något sött till fikat eller ett rustikt bröd till middagen, har vi något för dig. Allt bakas med noggrant utvalda ingredienser och mycket kärlek. Välkommen in och hitta din favorit!",
-    "images": [
-        { "url": "/images/semla1.jpg", "alt": "Semla från Bageri" },
-        { "url": "/images/cake1.png", "alt": "Cake från Bageri" },
-        { "url": "/images/cake2.png", "alt": "Cake från Bageri" },
-        { "url": "/images/bread1.png", "alt": "Bread från Bageri" },
-        { "url": "/images/bread2.png", "alt": "Bread från Bageri" },
-        { "url": "/images/bread3.png", "alt": "Bread från Bageri" },
-        { "url": "/images/bread4.png", "alt": "Bread från Bageri" }
-    ]
+   "images": [
+    { "url": "/images/brod.jpg", "alt": "Bröd" },
+    { "url": "/images/bulle.jpg", "alt": "Bulle" },
+    { "url": "/images/kaffe.jpg", "alt": "Kaffe" },
+    { "url": "/images/lunch1.jpg", "alt": "Lunchlåda 1" },
+    { "url": "/images/lunch2.jpg", "alt": "Lunchlåda 2" },
+    { "url": "/images/lussekatt.jpg", "alt": "Lussekatt" },
+    { "url": "/images/mys.jpg", "alt": "Mysbild" },
+    { "url": "/images/punchrulle.jpg", "alt": "Punchrulle" },
+    { "url": "/images/punchrulle2.jpg", "alt": "Punchrulle 2" },
+    { "url": "/images/sallad.jpg", "alt": "Sallad" },
+    { "url": "/images/sallad2.jpg", "alt": "Sallad 2" },
+    { "url": "/images/semla2.jpg", "alt": "Semla 2" },
+    { "url": "/images/semla3.jpg", "alt": "Semla 3" },
+    { "url": "/images/smorgastarta.jpg", "alt": "Smörgåstårta" },
+    { "url": "/images/tarta.jpg", "alt": "Tårta" }
+  ]
 }

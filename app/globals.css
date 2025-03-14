@@ -141,4 +141,7 @@
         @apply text-lg lg:text-2xl font-medium font-serif mb-4 md:mb-8;
         font-family: "Merriweather", serif; 
     }
+    hr {
+        @apply border-t border-amber-300 my-4;
+      }
 }

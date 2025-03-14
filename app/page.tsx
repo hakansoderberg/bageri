@@ -5,8 +5,15 @@ const Home = () => {
     return (
         <div>
             <main>
+                
                 <h1>{content.title}</h1>
                 <p>{content.text1}</p>
+                <ul className=" pl-5 space-y-2 mb-4 font-semibold text-gray-600">
+                    {content.openingHours.hours.map((hour, index) => (
+                        <li key={index}>{hour}</li>
+                    ))}
+                </ul>
+
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
                     {content.images.map((image, index) => (
                         <div key={index} className="w-full h-[250px] relative">

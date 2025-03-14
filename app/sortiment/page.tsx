@@ -6,9 +6,9 @@ const SortimentPage = () => {
         <div>
             <h1>{sortimentContent.title}</h1>
             <p>{sortimentContent.description}</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 md:gap-8 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 md:gap-4 gap-4">
                 {sortimentContent.images.map((image, index) => (
-                    <div key={index} className="w-full h-[150px] md:h-[300px] relative">
+                    <div key={index} className="w-full h-[150px] md:h-[200px] relative">
                         <Image src={image.url} alt={image.alt} fill className="rounded-lg shadow-lg object-cover" />
                     </div>
                 ))}

@@ -1,11 +1,15 @@
 {
     "title": "Välkommen till Bageri",
+    "openingHours": {
+        "title": "Öppettider",
+        "hours": ["Måndag - Fredag | 07:00 - 17:00", "Lördag | 09:00 - 14:00", "Söndag | Stängt"]
+    },
     "text1": "På Bageriet hittar du de godaste bröden, bakverken och konditorivarorna. Vi bakar allt med omsorg, tradition och kärlek för detaljer. Våra produkter är skapade av de finaste råvarorna för att ge dig den bästa möjliga smaken.",
     "text2": "Vi erbjuder ett brett sortiment av nybakade varor, från klassiska frallor till läckra tårtor och småkakor. Kom förbi och njut av vårt utbud eller beställ online!",
     "images": [
-        { "url": "/images/semla1.jpg", "alt": "Bild på semla" },
-        { "url": "/images/cake1.png", "alt": "Bild på cake" },
-        { "url": "/images/cake2.png", "alt": "Bild på cake" }
+        { "url": "/images/semla3.jpg", "alt": "Semla" },
+        { "url": "/images/brod.jpg", "alt": "Bröd" },
+        { "url": "/images/kaffe.jpg", "alt": "Kaffe" }
     ],
     "text3": "Vi är ett familjeägt bageri som har funnits i generationer. Allt vi gör är baserat på traditioner och kvalitet.",
     "text4": "Vi bakar varje dag för att alltid kunna erbjuda våra kunder de allra färskaste produkterna."
