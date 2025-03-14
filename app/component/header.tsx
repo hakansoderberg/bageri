@@ -1,5 +1,4 @@
 import Image from "next/image";
-import FakeLogo from "./fake-logo";
 import NavBarDesktop from "./nav-bar-desktop";
 import NavBarMobile from "./nav-bar-mobile";
 
