@@ -30,28 +30,28 @@ const NavBarMobile: React.FC = () => {
             >
                 <Link
                     href="/"
-                    className="text-xl transition-all duration-200"
+                    className="text-xl font-semibold"
                     onClick={toggleMenu}
                 >
                     Hem
                 </Link>
                 <Link
                     href="/sortiment"
-                    className="text-xl transition-all duration-200"
+                    className="text-xl font-semibold"
                     onClick={toggleMenu}
                 >
                     Sortiment
                 </Link>
                 <Link
                     href="/om-oss"
-                    className="text-xl transition-all duration-200"
+                    className="text-xl font-semibold"
                     onClick={toggleMenu}
                 >
                     Om oss
                 </Link>
                 <Link
                     href="/kontakt"
-                    className="text-xl transition-all duration-200"
+                    className="text-xl font-semibold"
                     onClick={toggleMenu}
                 >
                     Kontakt

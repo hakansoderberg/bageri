@@ -18,7 +18,7 @@ const Home = () => {
                         </div>
                     ))}
                 </div>
-                <p className="text-xl text-gray-700 mb-8">
+                <p className="mb-8">
                     Vi erbjuder ett brett sortiment av nybakade varor, från klassiska frallor till läckra tårtor och
                     småkakor. Kom förbi och njut av vårt utbud eller beställ online!
                 </p>
