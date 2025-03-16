@@ -6,5 +6,15 @@
             { "title": "Lördag", "value": "09:00 - 14:00" },
             { "title": "Söndag", "value": "Stängt" }
         ]
+    },
+    "lunchMenu": {
+        "title": "Veckans lunch",
+        "menu": [
+            { "title": "Måndag", "value": "Köttbullar med potatismos och lingonsylt" },
+            { "title": "Tisdag", "value": "Pasta carbonara" },
+            { "title": "Onsdag", "value": "Kycklinggryta med ris" },
+            { "title": "Torsdag", "value": "Vegetarisk lasagne" },
+            { "title": "Fredag", "value": "Fiskgratäng med potatis" }
+        ]
     }
 }

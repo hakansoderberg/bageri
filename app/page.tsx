@@ -15,9 +15,9 @@ const Home = () => {
                     <div className="mb-4 md:mb-8 md:w-1/2">
                         <div className="flex justify-end text-center">
                             <HighlightBox>
-                                <h3 className="mb-2 md:mb-4 px-16">{mainContent.openingHours.title}</h3>
+                                <h3 className="mb-2 md:mb-4 px-16">{mainContent.lunchMenu.title}</h3>
                                 <ul className="mb-4">
-                                    {mainContent.openingHours.hours.map((item, index) => (
+                                    {mainContent.lunchMenu.menu.map((item, index) => (
                                         <div key={index}>
                                             <p className="text-sm font-semibold mb-0">{item.title}</p>
                                             <p className="text-sm mb-2 last:mb-0">{item.value}</p>
@@ -36,7 +36,28 @@ const Home = () => {
                         </div>
                     ))}
                 </div>
-                <p className="mb-8">{content.text2}</p>
+                <div className="flex flex-col items-center md:flex-row md:items-start justify-between">
+                    <div className="mb-4 md:mb-8 md:w-1/2">
+                        <div className="flex justify-start text-center">
+                            <HighlightBox>
+                                <h3 className="mb-2 md:mb-4 px-16">{mainContent.openingHours.title}</h3>
+                                <ul className="mb-4">
+                                    {mainContent.openingHours.hours.map((item, index) => (
+                                        <div key={index}>
+                                            <p className="text-sm font-semibold mb-0">{item.title}</p>
+                                            <p className="text-sm mb-2 last:mb-0">{item.value}</p>
+                                        </div>
+                                    ))}
+                                </ul>
+                            </HighlightBox>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>{content.title}</h2>
+                        <p className="">{content.text2}</p>
+                    </div>
+                </div>
+       
             </main>
         </div>
     );
