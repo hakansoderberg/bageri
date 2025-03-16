@@ -1,5 +1,6 @@
 import Image from "next/image";
 import content from "./content/home-page.json";
+import mainContent from "./content/main.json";
 import HighlightBox from "./component/highlight-box";
 
 const Home = () => {
@@ -14,9 +15,9 @@ const Home = () => {
                     <div className="mb-4 md:mb-8 md:w-1/2">
                         <div className="flex justify-end text-center">
                             <HighlightBox>
-                                <h3 className="mb-2 md:mb-4 px-16">{content.openingHours.title}</h3>
+                                <h3 className="mb-2 md:mb-4 px-16">{mainContent.openingHours.title}</h3>
                                 <ul className="mb-4">
-                                    {content.openingHours.hours.map((item, index) => (
+                                    {mainContent.openingHours.hours.map((item, index) => (
                                         <div key={index}>
                                             <p className="text-sm font-semibold mb-0">{item.title}</p>
                                             <p className="text-sm mb-2 last:mb-0">{item.value}</p>

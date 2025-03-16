@@ -125,6 +125,10 @@
     }
 }
 
+.font-merry {
+    font-family: "Merriweather", serif;
+}
+
 @layer base {
     * {
         @apply border-border outline-ring/50;

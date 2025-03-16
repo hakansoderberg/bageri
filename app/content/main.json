@@ -1,0 +1,10 @@
+{
+    "openingHours": {
+        "title": "Öppettider",
+        "hours": [
+            { "title": "Måndag - Fredag", "value": "07:00 - 17:00" },
+            { "title": "Lördag", "value": "09:00 - 14:00" },
+            { "title": "Söndag", "value": "Stängt" }
+        ]
+    }
+}

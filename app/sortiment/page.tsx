@@ -12,15 +12,15 @@ const SortimentPage = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {content.links.map((item, index) => (
                     <div key={index} onClick={() => router.push(item.linkUrl)} className="cursor-pointer">
-                        <div className="w-full h-[150px] md:h-[250px] relative mb-2">
+                        <div className="w-full h-[150px] md:h-[250px] relative ">
                             <Image
                                 src={item.imageUrl}
                                 alt={item.imageAlt}
                                 fill
-                                className="rounded-sm shadow-lg object-cover"
+                                className="rounded-t-sm shadow-lg object-cover"
                             />
                         </div>
-                            <p className="bg-orange-200  text-center py-2 mb-0 rounded-sm font-semibold">
+                            <p className="bg-orange-200  text-center py-2 mb-0 rounded-b-sm font-semibold font-merry">
                                 {item.title}
                             </p>
                     </div>
