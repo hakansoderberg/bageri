@@ -20,11 +20,9 @@ const SortimentPage = () => {
                                 className="rounded-sm shadow-lg object-cover"
                             />
                         </div>
-                        <div className="bg-orange-100 p-2">
-                            <p className="border-gray-900 border-2  text-center py-2  mb-0 rounded-sm font-semibold">
+                            <p className="bg-orange-200  text-center py-2 mb-0 rounded-sm font-semibold">
                                 {item.title}
                             </p>
-                        </div>
                     </div>
                 ))}
             </div>

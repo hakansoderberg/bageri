@@ -121,7 +121,7 @@
 
 @layer components {
     .bg-primary {
-        @apply bg-orange-50;
+        @apply bg-orange-100;
     }
 }
 

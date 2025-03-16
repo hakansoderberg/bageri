@@ -28,7 +28,7 @@ const NavBarMobile: React.FC = () => {
             <div
                 className={`${
                     isOpen ? "translate-y-0" : "-translate-y-full"
-                } fixed top-0 left-0 w-full bg-orange-100 bg-opacity-80 z-40 flex flex-col items-center justify-start space-y-6 py-24 transition-transform duration-300`}
+                } fixed top-0 left-0 w-full bg-orange-200 bg-opacity-80 z-40 flex flex-col items-center justify-start space-y-6 py-24 transition-transform duration-300`}
             >
                 <button className="text-xl font-semibold font-roboto" onClick={() => navigate("/")}>
                     Hem
