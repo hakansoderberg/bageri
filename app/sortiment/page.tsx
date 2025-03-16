@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import content from "../content/sortiment-page.json";
 import { useRouter } from "next/navigation";
@@ -20,7 +20,11 @@ const SortimentPage = () => {
                                 className="rounded-sm shadow-lg object-cover"
                             />
                         </div>
-                        <p className="bg-orange-100 text-center py-2 mb-0 rounded-sm font-semibold">{item.title}</p>
+                        <div className="bg-orange-100 p-2">
+                            <p className="border-gray-900 border-2  text-center py-2  mb-0 rounded-sm font-semibold">
+                                {item.title}
+                            </p>
+                        </div>
                     </div>
                 ))}
             </div>
