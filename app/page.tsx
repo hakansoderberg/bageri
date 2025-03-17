@@ -1,7 +1,7 @@
-import Image from "next/image";
 import content from "./content/home-page.json";
 import mainContent from "./content/main.json";
 import HighlightBox from "./component/highlight-box";
+import CardLink from "./component/card-link";
 
 const Home = () => {
     return (
@@ -30,10 +30,8 @@ const Home = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
-                    {content.images.map((image, index) => (
-                        <div key={index} className="w-full h-[250px] relative">
-                            <Image src={image.url} alt={image.alt} fill className="rounded-sm shadow-lg object-cover" />
-                        </div>
+                    {content.links.map((item, index) => (
+                        <CardLink key={index} {...item} />
                     ))}
                 </div>
                 <div className="flex flex-col items-center md:flex-row md:items-start justify-between">
@@ -54,10 +52,9 @@ const Home = () => {
                     </div>
                     <div>
                         <h2>{content.title}</h2>
-                        <p >{content.text2}</p>
+                        <p>{content.text2}</p>
                     </div>
                 </div>
-       
             </main>
         </div>
     );
