@@ -9,7 +9,7 @@ const SortimentPage = () => {
         <div>
             <h1>{content.title}</h1>
             <p>{content.description}</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {content.links.map((item, index) => (
                     <div
                         key={index}
@@ -24,7 +24,7 @@ const SortimentPage = () => {
                                 className="rounded-sm object-cover p-4 pb-0"
                             />
                         </div>
-                        <p className="text-center py-2 m-4  border-1 border-gray-900 font-semibold font-merry rounded-sm">
+                        <p className="text-center py-2 m-4 hover:bg-rose-200 transition-all duration-200  border-1 border-gray-900 font-semibold font-merry rounded-sm">
                             {item.title}
                         </p>
                     </div>

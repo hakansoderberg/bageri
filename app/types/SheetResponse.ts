@@ -1,0 +1,3 @@
+interface SheetResponse {
+    values:string[][];
+}

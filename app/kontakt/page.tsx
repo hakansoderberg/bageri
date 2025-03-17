@@ -1,8 +1,11 @@
+"use client";
 import HighlightBox from "../component/highlight-box";
 import contactContent from "../content/contact-page.json";
 import mainContent from "../content/main.json";
+import useMenu from "../hooks/useMenu";
 
 const Contact = () => {
+    const { menu } = useMenu();
     return (
         <div>
             <div className="flex flex-col items-center md:flex-row md:items-start justify-between">

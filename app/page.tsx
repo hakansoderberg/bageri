@@ -54,7 +54,7 @@ const Home = () => {
                     </div>
                     <div>
                         <h2>{content.title}</h2>
-                        <p className="">{content.text2}</p>
+                        <p >{content.text2}</p>
                     </div>
                 </div>
        
