@@ -1,3 +1,3 @@
-interface SheetResponse {
-    values:string[][];
+export interface SheetResponse {
+    values: string[][];
 }

@@ -5,7 +5,7 @@ import mainContent from "../content/main.json";
 import useMenu from "../hooks/useMenu";
 
 const Contact = () => {
-    const { menu } = useMenu();
+    useMenu();
     return (
         <div>
             <div className="flex flex-col items-center md:flex-row md:items-start justify-between">

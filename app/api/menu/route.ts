@@ -1,3 +1,4 @@
+import { SheetResponse } from "@/app/types/SheetResponse";
 import { NextResponse } from "next/server";
 
 const SHEET_ID = "1SE3I8BX7Jqd6mbu5t8FfxahGqbY5dPqvUZUReonvhKU";
