@@ -119,14 +119,37 @@
     --sidebar-ring: oklch(0.439 0 0);
 }
 
-@layer components {
-    .bg-primary {
-        @apply bg-orange-100;
-    }
-}
-
 .font-merry {
     font-family: "Merriweather", serif;
+}
+
+.bg-accent {
+    background-color: #fdb903;
+}
+.text-accent {
+    color: #fdb903;
+}
+.bg-primary {
+    background-color: #bdb7bf;
+}
+.bg-secondary {
+    background-color: #e9e8f0;
+}
+
+.bg-dark {
+    background-color: #503b3b;
+}
+
+.bg-dark-2 {
+    background-color: #655356;
+}
+
+.text-dark {
+    color: #503b3b;
+}
+
+.text-light {
+    color: #e9e8f0;
 }
 
 @layer base {
@@ -135,14 +158,17 @@
     }
     body {
         @apply bg-background text-foreground;
-        font-family: "Roboto", sans-serif;
+        font-family: "Cutive Mono", sans-serif;
     }
     p {
-        @apply text-base md:text-lg leading-relaxed mb-4 md:mb-8 text-gray-700 md:max-w-3xl;
+        @apply text-base md:text-lg leading-relaxed mb-4 md:mb-8 ;
+        
     }
     h1 {
         @apply text-2xl lg:text-4xl font-bold font-serif mb-4 md:mb-8;
         font-family: "Merriweather", serif;
+        color:#503b3b;
+
     }
 
     h2 {

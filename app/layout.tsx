@@ -17,11 +17,11 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 <link
-                    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+                    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&family=Cutive+Mono&display=swap"
                     rel="stylesheet"
                 />
             </head>
-            <body className={`antialiased bg-orange-100 text-gray-900`}>
+            <body className={`antialiased bg-secondary text-gray-900`}>
                 <Header />
                 <div className="max-w-screen-lg mx-auto px-4 pt-8 pb-16">{children}</div>
                 <Footer />
