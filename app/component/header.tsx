@@ -5,8 +5,14 @@ import NavBarMobile from "./nav-bar-mobile";
 const Header = () => {
     return (
         <header className="min-h-[230px] bg-primary  ">
-            <div className="hidden md:flex max-w-screen-lg pt-8 mx-auto flex-col justify-center items-center h-full">
-                <Image src="/images/logo-transparent.png" alt="Haugen baugen logo" width={200} height={200} />
+            <div className="hidden md:flex max-w-screen-md pt-8 mx-auto flex-col justify-center items-center h-full">
+                <Image
+                    src="/images/logo-transparent.png"
+                    alt="Haugen baugen logo"
+                    width={200}
+                    height={200}
+                    
+                />
                 <div className="my-8">
                     <NavBarDesktop />
                 </div>

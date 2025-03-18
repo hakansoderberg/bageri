@@ -82,6 +82,11 @@
     --sidebar-accent-foreground: oklch(0.205 0 0);
     --sidebar-border: oklch(0.922 0 0);
     --sidebar-ring: oklch(0.708 0 0);
+    --beige-face: #d5bfaf;
+    --gdansk: #ede4df;
+    --vani: oklch(0.98 0.02 51.2);
+    --dolemite: #503b3b;
+    --coco: #655356;
 }
 
 .dark {
@@ -123,33 +128,28 @@
     font-family: "Merriweather", serif;
 }
 
-.bg-accent {
-    background-color: #fdb903;
-}
-.text-accent {
-    color: #fdb903;
-}
 .bg-primary {
-    background-color: #bdb7bf;
+    /* background-color: #bdb7bf; */
+    background-color: var(--beige-face);
 }
 .bg-secondary {
-    background-color: #e9e8f0;
+    background-color: var(--gdansk);
+    /* background-color: #e9e8f0; */
+}
+.bg-third {
+    background-color: var(--vani);
 }
 
 .bg-dark {
-    background-color: #503b3b;
+    background-color: var(--dolemite);
 }
 
 .bg-dark-2 {
-    background-color: #655356;
+    background-color: var(--coco);
 }
 
-.text-dark {
-    color: #503b3b;
-}
-
-.text-light {
-    color: #e9e8f0;
+.text-primary {
+    color: var(--dolemite)
 }
 
 @layer base {
@@ -161,23 +161,22 @@
         font-family: "Cutive Mono", sans-serif;
     }
     p {
-        @apply text-base md:text-lg leading-relaxed mb-4 md:mb-8 ;
-        
+        @apply text-base md:text-lg leading-relaxed mb-4 md:mb-4;
+        color: var(--dolemite)
     }
     h1 {
-        @apply text-2xl lg:text-4xl font-bold font-serif mb-4 md:mb-8;
+        @apply text-2xl lg:text-3xl font-bold font-serif mb-4 md:mb-4;
         font-family: "Merriweather", serif;
-        color:#503b3b;
-
+        color: var(--dolemite)
     }
 
     h2 {
-        @apply text-xl lg:text-3xl font-semibold font-serif mb-4 md:mb-8;
+        @apply text-xl lg:text-2xl font-semibold font-serif mb-4 md:mb-8;
         font-family: "Merriweather", serif;
     }
 
     h3 {
-        @apply text-lg lg:text-2xl font-medium font-serif mb-4 md:mb-8;
+        @apply text-lg lg:text-xl font-medium font-serif mb-4 md:mb-8;
         font-family: "Merriweather", serif;
     }
 }
