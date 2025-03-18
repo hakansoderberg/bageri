@@ -2,7 +2,6 @@ import content from "./content/home-page.json";
 import mainContent from "./content/main.json";
 import HighlightBox from "./component/highlight-box";
 import CardLink from "./component/card-link";
-import { TextAndItem } from "./component/text-and-item";
 import Image from "next/image";
 
 const Home = () => {

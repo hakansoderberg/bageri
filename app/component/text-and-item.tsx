@@ -6,7 +6,7 @@ export const TextAndItem = ({
     title,
     inverted = false,
 }: {
-    children: any;
+    children: React.ReactNode;
     text: string;
     title: string;
     inverted?: boolean;

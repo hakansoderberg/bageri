@@ -1,9 +1,5 @@
-"use client";
 import Block from "../component/block";
-import HighlightBox from "../component/highlight-box";
-import { TextAndItem } from "../component/text-and-item";
 import contactContent from "../content/contact-page.json";
-import mainContent from "../content/main.json";
 import useMenu from "../hooks/useMenu";
 
 const Contact = () => {
