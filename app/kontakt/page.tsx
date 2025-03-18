@@ -1,9 +1,8 @@
 import Block from "../component/block";
 import contactContent from "../content/contact-page.json";
-import useMenu from "../hooks/useMenu";
 
 const Contact = () => {
-    useMenu();
+    
     return (
         <div>
             <Block className="mb-8 md:mb-8 " dark>
