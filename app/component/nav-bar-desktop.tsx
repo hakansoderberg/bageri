@@ -7,26 +7,26 @@ const NavBarDesktop: React.FC = () => {
             <nav className="flex items-center justify-center space-x-6">
                 <Link
                     href="/"
-                    className="font-semibold text-xl px-4 py-2 rounded-sm hover:underline  transition-all duration-200 text-gray-900 font-merry"
+                    className="font-semibold text-xl px-4 py-2 rounded-sm hover:underline  transition-all duration-200  font-merry"
                 >
                     Hem
                 </Link>
                 <Link
                     href="/sortiment"
-                    className="font-semibold text-xl px-4 py-2 rounded-sm hover:underline transition-all duration-200 text-gray-900 font-merry"
+                    className="font-semibold text-xl px-4 py-2 rounded-sm hover:underline transition-all duration-200  font-merry"
                 >
                     Sortiment
                 </Link>
 
                 <Link
                     href="/om-oss"
-                    className="font-semibold text-xl px-4 py-2 rounded-sm hover:underline transition-all duration-200 text-gray-900 font-merry"
+                    className="font-semibold text-xl px-4 py-2 rounded-sm hover:underline transition-all duration-200  font-merry"
                 >
                     Om oss
                 </Link>
                 <Link
                     href="/kontakt"
-                    className="font-semibold text-xl px-4 py-2 rounded-sm hover:underline transition-all duration-200 text-gray-900 font-merry"
+                    className="font-semibold text-xl px-4 py-2 rounded-sm hover:underline transition-all duration-200  font-merry"
                 >
                     Kontakt
                 </Link>

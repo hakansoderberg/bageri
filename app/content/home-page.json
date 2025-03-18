@@ -1,6 +1,6 @@
 {
-    "title": "Välkommen till Bageri",
-    "text1": "På Bageriet hittar du de godaste bröden, bakverken och konditorivarorna. Vi bakar allt med omsorg, tradition och kärlek för detaljer. Våra produkter är skapade av de finaste råvarorna för att ge dig den bästa möjliga smaken.",
+    "title": "Välkommen!",
+    "text1": "Färskt, gott och bakat med kärlek – det är vad du hittar hos Hagabagarn. Vi erbjuder allt från frukostbröd till festtårtor, och vårt sortiment varierar ständigt. Titta in hos oss eller följ oss på sociala medier för att se vad som är nybakat idag!",
 
     "text2": "Vi erbjuder ett brett sortiment av nybakade varor, från klassiska frallor till läckra tårtor och småkakor. Kom förbi och njut av vårt utbud eller beställ online!",
     "links": [
@@ -24,5 +24,9 @@
         }
     ],
     "text3": "Vi är ett familjeägt bageri som har funnits i generationer. Allt vi gör är baserat på traditioner och kvalitet.",
-    "text4": "Vi bakar varje dag för att alltid kunna erbjuda våra kunder de allra färskaste produkterna."
+    "text4": "Vi bakar varje dag för att alltid kunna erbjuda våra kunder de allra färskaste produkterna.",
+    "imageBottom": {
+        "url": "/images/brod3.jpg",
+        "alt": "Bild på bröd"
+    }
 }

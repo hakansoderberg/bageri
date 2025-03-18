@@ -5,7 +5,7 @@ import Block from "../component/block";
 const SortimentPage = () => {
     return (
         <div>
-            <Block className="mb-4 md:mb-8">
+            <Block className="mb-8 md:mb-8">
                 <h1>{content.title}</h1>
                 <p>{content.description}</p>
             </Block>

@@ -1,11 +1,26 @@
 {
     "title": "Vårt sortiment",
-    "description": "I vårt ordinarie sortiment finner du bröd, kaffebröd och andra läckra bakverk. I butiken har vi även fler godsaker som inte finns med på hemsidan. Kolla gärna in vårt Instagramkonto för att se dagens utbud av bakverk.",
+    "description": "I vårt ordinarie sortiment finner du bröd, kaffebröd och andra läckra bakverk. Vi erbjuder även matlådor för dig som vill ha en god och smidig lunch. I butiken finns dessutom fler godsaker som inte finns med på hemsidan. Kolla gärna in vårt Instagramkonto för att se dagens utbud av bakverk och matlådor!",
+
     "links": [
-        { "title": "Tårtor", "linkUrl": "/sortiment/tartor", "imageUrl": "/images/tarta.jpg", "imageAlt": "Bild på tårta" },
+        {
+            "title": "Tårtor",
+            "linkUrl": "/sortiment/tartor",
+            "imageUrl": "/images/tarta.jpg",
+            "imageAlt": "Bild på tårta"
+        },
         { "title": "Bröd", "linkUrl": "/sortiment/brod", "imageUrl": "/images/brod.jpg", "imageAlt": "Bild på bröd" },
-        { "title": "Lunch", "linkUrl": "/sortiment/lunch", "imageUrl": "/images/sallad2.jpg", "imageAlt": "Bild på sallad lunch" },
-        { "title": "Bakelser", "linkUrl": "/sortiment/bakelser", "imageUrl": "/images/punchrulle.jpg", "imageAlt": "Bild på punchrulle" }
+        {
+            "title": "Lunch",
+            "linkUrl": "/sortiment/lunch",
+            "imageUrl": "/images/sallad2.jpg",
+            "imageAlt": "Bild på sallad lunch"
+        },
+        {
+            "title": "Bakelser",
+            "linkUrl": "/sortiment/bakelser",
+            "imageUrl": "/images/punchrulle.jpg",
+            "imageAlt": "Bild på punchrulle"
+        }
     ]
 }
-
