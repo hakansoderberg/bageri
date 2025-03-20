@@ -8,7 +8,7 @@ const BreadPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
                 {content.grid.map((image, index) => (
                     <div key={index} className="w-full h-[250px] relative">
-                        <Image src={image.url} alt={image.alt} fill className="rounded-sm shadow-lg object-cover" />
+                        <Image src={image.url} alt={image.alt} fill className="rounded-xs shadow-lg object-cover" />
                     </div>
                 ))}
             </div>

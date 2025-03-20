@@ -9,7 +9,7 @@ const Home = () => {
         <div>
             <main>
                 <div className="mb-8">
-                    <div className="bg-third p-4 rounded-sm flex-col justify-center items-center">
+                    <div className="bg-third p-4 rounded-xs flex-col justify-center items-center">
                         <h1 className="">{content.title}</h1>
                         <p className="">{content.text1}</p>
                     </div>
@@ -21,12 +21,12 @@ const Home = () => {
                     ))}
                 </div>
                 <div className="flex flex-col md:flex-row justify-between gap-4">
-                    <div className="w-full relative rounded-sm">
+                    <div className="w-full relative rounded-xs">
                         <Image
                             src={content.imageBottom.url}
                             alt={content.imageBottom.alt}
                             fill
-                            className="rounded-sm object-cover"
+                            className="rounded-xs object-cover"
                         />
                     </div>
 

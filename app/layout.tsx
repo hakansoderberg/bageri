@@ -21,9 +21,9 @@ export default function RootLayout({
                     rel="stylesheet"
                 />
             </head>
-            <body className={`antialiased bg-secondary text-primary`}>
+            <body className="antialiased bg-secondary text-primary min-h-screen flex flex-col">
                 <Header />
-                <div className="max-w-screen-md mx-auto px-4 pt-8 pb-16">{children}</div>
+                <main className="flex-1 max-w-screen-md mx-auto px-4 pt-8 pb-16">{children}</main>
                 <Footer />
             </body>
         </html>
