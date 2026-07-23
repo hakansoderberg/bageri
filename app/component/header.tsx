@@ -7,7 +7,7 @@ const Header = () => {
         <header className="min-h-[230px] bg-primary  ">
             <div className="hidden md:flex max-w-screen-md pt-8 mx-auto flex-col justify-center items-center h-full">
                 <Image
-                    src="/images/logo-transparent.png"
+                    src="/images/gardet-logo.png"
                     alt="Haugen baugen logo"
                     width={200}
                     height={200}
@@ -15,13 +15,17 @@ const Header = () => {
                 />
                 <div className="my-8">
                     <NavBarDesktop />
+                    
                 </div>
+                
             </div>
+            <div className="divider" />
 
             <div className="flex md:hidden justify-center pt-8 items-center ">
-                <Image src="/images/logo-transparent.png" alt="Haugen baugen logo" width={150} height={150} />
+                <Image src="/images/gardet-logo.png" alt="Haugen baugen logo" width={150} height={150} />
                 <NavBarMobile />
             </div>
+            
         </header>
     );
 };

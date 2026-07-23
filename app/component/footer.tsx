@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
-                        <ul>
+                        <ul >
                             <li>Företagsnamn AB</li>
                             <li>Adress: Gatan 123, 123 45 Stad</li>
                             <li>Telefon: 012-345 67 89</li>
@@ -54,8 +54,8 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="text-center mt-8 ">
-                    <p className="text-sm">© 2025 Företagsnamn AB. Alla rättigheter förbehållna.</p>
+                <div className="text-center mt-8 divider">
+                    <p className="text-sm pt-4">© 2025 Företagsnamn AB. Alla rättigheter förbehållna.</p>
                 </div>
             </div>
         </footer>

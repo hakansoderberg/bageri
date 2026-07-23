@@ -13,7 +13,7 @@ const CardLink: React.FC<CardLinkProps> = ({ linkUrl, imageUrl, imageAlt, title 
     const router = useRouter();
 
     return (
-        <div onClick={() => router.push(linkUrl)} className="cursor-pointer rounded-xs bg-primary shadow-lg">
+        <div onClick={() => router.push(linkUrl)} className="cursor-pointer rounded-xs bg-primary shadow-lg ">
             <div className="w-full h-[250px] relative rounded-xs">
                 <Image src={imageUrl} alt={imageAlt} fill className="rounded-xs object-cover  pb-0" />
             </div>

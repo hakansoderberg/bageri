@@ -82,11 +82,9 @@
     --sidebar-accent-foreground: oklch(0.205 0 0);
     --sidebar-border: oklch(0.922 0 0);
     --sidebar-ring: oklch(0.708 0 0);
-    --beige-face: #d5bfaf;
-    --gdansk: #ede4df;
-    --vani: oklch(0.98 0.02 51.2);
-    --dolemite: #503b3b;
-    --coco: #655356;
+    --rockefeller-blau: #04202c;
+    --gdansk: #f7f7f7;
+    --gullgossen: #e3c064
 }
 
 .dark {
@@ -125,7 +123,7 @@
 }
 
 .text-light{
-    color:var(--vani)
+    color:var(--gullgossen)
 }
 
 .font-merry {
@@ -134,26 +132,30 @@
 
 .bg-primary {
     /* background-color: #bdb7bf; */
-    background-color: var(--beige-face);
+    background-color: var(--rockefeller-blau);
 }
 .bg-secondary {
     background-color: var(--gdansk);
     /* background-color: #e9e8f0; */
 }
 .bg-third {
-    background-color: var(--vani);
+    background-color: var(--rockefeller-blau);
 }
 
 .bg-dark {
-    background-color: var(--dolemite);
-}
-
-.bg-dark-2 {
-    background-color: var(--coco);
+    background-color: var(--rockefeller-blau);
 }
 
 .text-primary {
-    color: var(--dolemite)
+    color: var(--gullgossen)
+}
+
+.divider{
+    height: 1px;
+    background-color: var(--gullgossen);
+}
+.wrapper-line{
+    border: 1px solid var(--gullgossen);
 }
 
 @layer base {
@@ -166,12 +168,16 @@
     }
     p {
         @apply text-base md:text-lg leading-relaxed mb-4 md:mb-4;
-        color: var(--dolemite)
+        color: var(--gdansk)
+    }
+
+    li {
+        color: var(--gdansk)
     }
     h1 {
         @apply text-2xl lg:text-3xl font-bold font-serif mb-4 md:mb-4;
         font-family: "Merriweather", serif;
-        color: var(--dolemite)
+        color: var(--gullgossen)
     }
 
     h2 {

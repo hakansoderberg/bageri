@@ -20,7 +20,7 @@ const Home = () => {
                         <CardLink key={index} {...item} />
                     ))}
                 </div>
-                <div className="flex flex-col md:flex-row justify-between gap-4">
+                <div className="flex flex-col md:flex-row justify-between gap-4 ">
                     <div className="w-full relative rounded-xs">
                         <Image
                             src={content.imageBottom.url}
@@ -30,7 +30,7 @@ const Home = () => {
                         />
                     </div>
 
-                    <HighlightBox className="w-full text-center">
+                    <HighlightBox className="w-full text-center wrapper-line">
                         <h3 className="mb-2 md:mb-4 px-16">{mainContent.openingHours.title}</h3>
                         <ul className="mb-4 ">
                             {mainContent.openingHours.hours.map((item, index) => (
