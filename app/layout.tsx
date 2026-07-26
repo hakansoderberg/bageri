@@ -17,13 +17,13 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 <link
-                    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&family=Cutive+Mono&display=swap"
+                    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&family=Inter:wght@400;700&display=swap"
                     rel="stylesheet"
                 />
             </head>
             <body className="antialiased bg-primary text-primary min-h-screen flex flex-col">
                 <Header />
-                <main className="flex-1 max-w-screen-md mx-auto px-4 pt-8 pb-16">{children}</main>
+                <main className="flex-1 max-w-screen-lg mx-auto px-4 pt-8 pb-16">{children}</main>
                 <Footer />
             </body>
         </html>

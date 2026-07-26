@@ -84,7 +84,9 @@
     --sidebar-ring: oklch(0.708 0 0);
     --rockefeller-blau: #04202c;
     --gdansk: #f7f7f7;
-    --gullgossen: #e3c064
+    --gullgossen: #e3c064;
+    --weak-link: oklch(0.57 0 0);
+    --waleza: oklch(82.968% 0.00009 271.152);
 }
 
 .dark {
@@ -152,7 +154,7 @@
 
 .divider{
     height: 1px;
-    background-color: var(--gullgossen);
+    background-color: var(--weak-link);
 }
 .wrapper-line{
     border: 1px solid var(--gullgossen);
@@ -164,10 +166,10 @@
     }
     body {
         @apply bg-background text-foreground;
-        font-family: "Cutive Mono", sans-serif;
+        font-family: "Inter", sans-serif;
     }
     p {
-        @apply text-base md:text-lg leading-relaxed mb-4 md:mb-4;
+        @apply text-base md:text-base leading-relaxed mb-4 md:mb-4 ;
         color: var(--gdansk)
     }
 
@@ -175,9 +177,10 @@
         color: var(--gdansk)
     }
     h1 {
-        @apply text-2xl lg:text-3xl font-bold font-serif mb-4 md:mb-4;
+        @apply text-2xl lg:text-4xl font-bold font-serif mb-4 md:mb-4;
         font-family: "Merriweather", serif;
         color: var(--gullgossen)
+        
     }
 
     h2 {

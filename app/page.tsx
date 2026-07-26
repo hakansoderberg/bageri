@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <div>
             <main>
-                <div className="mb-8">
-                    <div className="bg-third p-4 rounded-xs flex-col justify-center items-center">
+                <div className="mb-2">
+                    <div className="p-4 rounded-xs flex-col justify-center items-center md:width-1/2">
                         <h1 className="">{content.title}</h1>
                         <p className="">{content.text1}</p>
                     </div>
@@ -20,6 +20,7 @@ const Home = () => {
                         <CardLink key={index} {...item} />
                     ))}
                 </div>
+                
                 <div className="flex flex-col md:flex-row justify-between gap-4 ">
                     <div className="w-full relative rounded-xs">
                         <Image
@@ -29,7 +30,7 @@ const Home = () => {
                             className="rounded-xs object-cover"
                         />
                     </div>
-
+                
                     <HighlightBox className="w-full text-center wrapper-line">
                         <h3 className="mb-2 md:mb-4 px-16">{mainContent.openingHours.title}</h3>
                         <ul className="mb-4 ">
@@ -41,7 +42,9 @@ const Home = () => {
                             ))}
                         </ul>
                     </HighlightBox>
+            
                 </div>
+                
             </main>
         </div>
     );
