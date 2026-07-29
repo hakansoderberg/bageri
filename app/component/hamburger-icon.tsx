@@ -11,9 +11,9 @@ const HamburgerIcon: React.FC<Props> = (props) => {
             onClick={props.onClick}
             aria-label="Toggle menu"
         >
-            <span className="w-6 h-1 bg-black" />
-            <span className="w-6 h-1 bg-black" />
-            <span className="w-6 h-1 bg-black" />
+            <span className="w-6 h-1 color-mobile-icon" />
+            <span className="w-6 h-1 color-mobile-icon" />
+            <span className="w-6 h-1 color-mobile-icon" />
         </button>
     );
 };

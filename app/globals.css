@@ -159,6 +159,9 @@
 .wrapper-line{
     border: 1px solid var(--gullgossen);
 }
+.color-mobile-icon{
+    background-color: var(--gullgossen);
+}
 
 @layer base {
     * {

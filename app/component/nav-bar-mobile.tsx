@@ -33,14 +33,14 @@ const NavBarMobile: React.FC = () => {
                 <button className="text-xl font-semibold font-merry" onClick={() => navigate("/")}>
                     Hem
                 </button>
-                <button className="text-xl font-semibold font-merry" onClick={() => navigate("/sortiment")}>
-                    Sortiment
+                <button className="text-xl font-semibold font-merry" onClick={() => navigate("/lunch")}>
+                    Lunch
                 </button>
-                <button className="text-xl font-semibold font-merry" onClick={() => navigate("/om-oss")}>
-                    Om oss
+                <button className="text-xl font-semibold font-merry" onClick={() => navigate("/konferens")}>
+                    Konferens
                 </button>
-                <button className="text-xl font-semibold font-merry" onClick={() => navigate("/kontakt")}>
-                    Kontakt
+                <button className="text-xl font-semibold font-merry" onClick={() => navigate("/catering")}>
+                    Catering
                 </button>
             </div>
         </>

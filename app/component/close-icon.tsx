@@ -13,11 +13,11 @@ const CloseIcon: React.FC<Props> = (props) => {
         >
             {/* Översta linjen */}
             <span
-                className="absolute w-6 h-1 bg-black rotate-45 transform transition-all duration-300"
+                className="absolute w-6 h-1 color-mobile-icon rotate-45 transform transition-all duration-300"
             />
             {/* Undre linjen */}
             <span
-                className="absolute w-6 h-1 bg-black -rotate-45 transform transition-all duration-300"
+                className="absolute w-6 h-1 color-mobile-icon -rotate-45 transform transition-all duration-300"
             />
         </button>
     );

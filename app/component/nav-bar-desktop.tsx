@@ -18,9 +18,9 @@ const NavBarDesktop: React.FC = () => {
             <nav className="flex justify-between items-center">
                 <div>
                     <LinkItem href="/" linkText="Hem" />
-                    <LinkItem href="/sortiment" linkText="Sortiment" />
-                    <LinkItem href="/om-oss" linkText="Om oss" />
-                    <LinkItem href="/kontakt" linkText="Kontakt" />
+                    <LinkItem href="/lunch" linkText="Lunch" />
+                    <LinkItem href="/konferens" linkText="Konferens" />
+                    <LinkItem href="/catering" linkText="Catering" />
                 </div>
                 <div>
                     <LinkItem href="/favoriter" linkText="❤︎" />
