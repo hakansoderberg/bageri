@@ -3,25 +3,32 @@ import mainContent from "./content/main.json";
 import HighlightBox from "./component/highlight-box";
 import CardLink from "./component/card-link";
 import Image from "next/image";
+import OutlineButton from "./component/outline-button";
 
 const Home = () => {
     return (
         <div>
             <main>
-                <div className="mb-2">
-                    <div className="p-4 rounded-xs flex-col justify-center items-center md:width-1/2">
+                <div className="flex flex-col md:flex-row justify-between gap-4 mb-8 md:mb-16">
+                    <div className="p-4 md:p-0 rounded-xs w-full">
                         <h1 className="">{content.title}</h1>
                         <p className="">{content.text1}</p>
+                        <OutlineButton href="/menu" className="mt-4">
+                            Gå till meny
+                        </OutlineButton>
                     </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
-                    {content.links.map((item, index) => (
-                        <CardLink key={index} {...item} />
-                    ))}
+                     <div className="w-full relative rounded-xs">
+                        <Image
+                            src={content.image1.url}
+                            alt={content.image1.alt}
+                            fill
+                            className="rounded-xs object-cover"
+                        />
+                    </div>
+                
                 </div>
                 
-                <div className="flex flex-col md:flex-row justify-between gap-4 ">
+                <div className="flex flex-col md:flex-row justify-between gap-4 mb-8 md:mb-16">
                     <div className="w-full relative rounded-xs">
                         <Image
                             src={content.imageBottom.url}
@@ -43,6 +50,11 @@ const Home = () => {
                         </ul>
                     </HighlightBox>
             
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
+                    {content.links.map((item, index) => (
+                        <CardLink key={index} {...item} />
+                    ))}
                 </div>
                 
             </main>

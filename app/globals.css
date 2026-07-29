@@ -169,7 +169,7 @@
         font-family: "Inter", sans-serif;
     }
     p {
-        @apply text-base md:text-base leading-relaxed mb-4 md:mb-4 ;
+        @apply text-xs md:text-xs leading-relaxed mb-4 md:mb-4 ;
         color: var(--gdansk)
     }
 

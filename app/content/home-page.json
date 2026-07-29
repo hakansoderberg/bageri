@@ -1,7 +1,10 @@
 {
-    "title": "Välkommen!",
+    "title": "Välkommen till Gärdehov Catering & Restaurang!",
     "text1": "Färskt, gott och bakat med kärlek – det är vad du hittar hos Hagabagarn. Vi erbjuder allt från frukostbröd till festtårtor, och vårt sortiment varierar ständigt. Titta in hos oss eller följ oss på sociala medier för att se vad som är nybakat idag!",
-
+    "image1": {
+        "url": "/images/sas.jpeg",
+        "alt": "Bild på bageri"
+    },
     "text2": "Vi erbjuder ett brett sortiment av nybakade varor, från klassiska frallor till läckra tårtor och småkakor. Kom förbi och njut av vårt utbud eller beställ online!",
     "links": [
         {
