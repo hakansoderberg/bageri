@@ -27,8 +27,16 @@ const Home = () => {
                     </div>
                 
                 </div>
+            
                 
-                <div className="flex flex-col md:flex-row justify-between gap-4 mb-8 md:mb-16">
+            </main>
+        </div>
+    );
+};
+export default Home;
+
+
+{/* <div className="flex flex-col md:flex-row justify-between gap-4 mb-8 md:mb-16">
                     <div className="w-full relative rounded-xs">
                         <Image
                             src={content.imageBottom.url}
@@ -50,15 +58,4 @@ const Home = () => {
                         </ul>
                     </HighlightBox>
             
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
-                    {content.links.map((item, index) => (
-                        <CardLink key={index} {...item} />
-                    ))}
-                </div>
-                
-            </main>
-        </div>
-    );
-};
-export default Home;
+                </div> */}

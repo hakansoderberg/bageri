@@ -83,6 +83,7 @@
     --sidebar-border: oklch(0.922 0 0);
     --sidebar-ring: oklch(0.708 0 0);
     --rockefeller-blau: #04202c;
+    --bludabo: #001823;
     --gdansk: #f7f7f7;
     --gullgossen: #e3c064;
     --weak-link: oklch(0.57 0 0);
@@ -145,7 +146,7 @@
 }
 
 .bg-dark {
-    background-color: var(--rockefeller-blau);
+    background-color: var(--bludabo);
 }
 
 .text-primary {

@@ -4,28 +4,24 @@ import NavBarMobile from "./nav-bar-mobile";
 
 const Header = () => {
     return (
-        <header className="min-h-[230px] bg-primary mb-8 md:mb-16">
-            <div className="hidden md:flex pt-8 flex-col h-full">
-                <div className="flex flex-col justify-center items-center">
-                    <Image
-                        className="mx-auto mb-16"
-                        src="/images/ch-logo.png"
-                        alt="Haugen baugen logo"
-                        width={200}
-                        height={200}
-                    />
-                </div>
-                <div className="divider"></div>
-                <div className="max-w-screen-lg mx-auto w-full px-4 py-4">
-                    <NavBarDesktop />
-                </div>
-                <div className="divider"></div>
-            </div>
-            <div className="flex md:hidden justify-center pt-8 items-center ">
-                <Image src="/images/ch-logo.png" alt="Haugen baugen logo" width={150} height={150} />
-                <NavBarMobile />
-            </div>
-        </header>
+    <header className="bg-dark py-4 md:mb-16 border-b border-[var(--waleza)]">
+    <div className="flex flex-col md:flex-row md:justify-between md:items-center items-start px-4 md:px-8 py-4 md:py-8">
+        <div className="flex items-center mb-4 md:mb-0">
+            <Image
+                className="pl-4"
+                src="/images/ch-logo.png"
+                alt="Haugen baugen logo"
+                width={50}
+                height={50}
+            />
+            <h1 className="inline text-base mb-0 pl-2">
+                Gärdehov Restaurang och Catering
+            </h1>
+        </div>
+
+        <NavBarDesktop />
+    </div>
+</header>
     );
 };
 export default Header;
