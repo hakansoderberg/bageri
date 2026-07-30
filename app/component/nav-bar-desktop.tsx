@@ -28,8 +28,8 @@ const NavBarDesktop = () => {
             <div>
                 <LinkItem href="/" linkText="Hem" />
                 <LinkItem href="/lunch" linkText="Lunch" />
-                <LinkItem href="/konferens" linkText="Konferens" />
                 <LinkItem href="/catering" linkText="Catering" />
+                <LinkItem href="/konferens" linkText="Konferens" />
             </div>
         </nav>
     );

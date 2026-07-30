@@ -1,20 +1,8 @@
 {
     "openingHours": {
-        "title": "Öppettider",
-        "hours": [
-            { "title": "Måndag - Fredag", "value": "07:00 - 17:00" },
-            { "title": "Lördag", "value": "09:00 - 14:00" },
-            { "title": "Söndag", "value": "Stängt" }
-        ]
-    },
-    "lunchMenu": {
-        "title": "Veckans lunch",
-        "menu": [
-            { "title": "Måndag", "value": "Köttbullar med potatismos och lingonsylt" },
-            { "title": "Tisdag", "value": "Pasta carbonara" },
-            { "title": "Onsdag", "value": "Kycklinggryta med ris" },
-            { "title": "Torsdag", "value": "Vegetarisk lasagne" },
-            { "title": "Fredag", "value": "Fiskgratäng med potatis" }
-        ]
+        "title1": "Öppettider",
+        "title2":"Mån–Fre 10.30–14.00",
+        "text": "Öppet extra vid matcher, mässor och event. Se Facebook för aktuellt schema."
+    
     }
 }

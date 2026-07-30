@@ -1,24 +1,42 @@
 import content from "./content/home-page.json";
-import SlimWidth from "./component/slim-width";
+import mainContent from "./content/main.json";
+
 import Card from "./component/card";
+import HighlightBox from "./component/highlight-box";
+import OutlineButton from "./component/outline-button";
 
 const Home = () => {
     return (
         <div>
             <main>
-                <div className="flex flex-col md:flex-row justify-between gap-4 mb-8 md:mb-16">
-                
-                        <div className="p-4 md:p-0 rounded-xs w-full text-center flex-col md:flex-row items-center ">
-                            <h1 >{content.title}</h1>
-                            <p >{content.text1}</p>
-                        </div>
-              
+               <div className="flex flex-col md:flex-row justify-between gap-4 mb-4 md:mb-16">
+  <div className="w-full flex flex-col items-center text-center p-4 md:p-0">
+    <h1>{content.title}</h1>
+    <p>{content.text1}</p>
+
+    <OutlineButton
+      href="https://www.matochmat.se/lunch/sundsvall/gardehov-restaurang-catering/"
+      className="mt-4 self-center"
+    >
+      Se dagens meny →
+    </OutlineButton>
+  </div>
+</div>
+                <div className="flex flex-col items-center justify-between mb-8 md:mb-16">
+                    <HighlightBox className="w-fit text-center wrapper-line p-8">
+                        <p className="text-base text-light inline font-merry">{mainContent.openingHours.title1}</p>
+                        <p className="text-base text-pale inline ml-2 ">{mainContent.openingHours.title2}</p>
+                        <p className="text-xs pt-2 mb-0">{mainContent.openingHours.text}</p>
+                    </HighlightBox>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
-
-                <Card linkUrl="/lunch" title="Dagens lunch" text="En väldigt bra text om lunchen skulle passa här" />
-                <Card linkUrl="/catering" title="Catering" text="En ännu bättre text om catering här" />
-                <Card linkUrl="/konferens" title="Konferens" text="Konferenstexten skulle sitta som en smäck här" />
+                    <Card
+                        linkUrl="/lunch"
+                        title="Dagens lunch"
+                        text="En väldigt bra text om lunchen skulle passa här"
+                    />
+                    <Card linkUrl="/konferens" title="Konferens" text="Konferenstexten skulle sitta som en smäck här" />
+                    <Card linkUrl="/catering" title="Catering" text="En ännu bättre text om catering här" />
                 </div>
             </main>
         </div>

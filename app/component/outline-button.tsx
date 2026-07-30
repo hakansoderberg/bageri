@@ -22,15 +22,23 @@ export default function OutlineButton({
     transition-colors
     hover:bg-[var(--gullgossen-light)]
     hover:text-black
+    rounded-xs
     ${className}
   `;
 
   if (href) {
-    return (
-      <a href={href} className={styles}>
-        {children}
-      </a>
-    );
+    const isExternal = href.startsWith("http");
+
+  return (
+    <a
+      href={href}
+      className={styles}
+      target={isExternal ? "_blank" : undefined}
+      rel={isExternal ? "noopener noreferrer" : undefined}
+    >
+      {children}
+    </a>
+  );
   }
 
   return (

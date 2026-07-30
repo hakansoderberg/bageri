@@ -1,6 +1,5 @@
 import Image from "next/image";
 import NavBarDesktop from "./nav-bar-desktop";
-import NavBarMobile from "./nav-bar-mobile";
 
 const Header = () => {
     return (
@@ -15,7 +14,7 @@ const Header = () => {
                 height={50}
             />
             <h1 className="inline text-base mb-0 pl-2">
-                Gärdehov Restaurang och Catering
+                Gärdehov Restaurang & Catering
             </h1>
         </div>
 
