@@ -82,12 +82,15 @@
     --sidebar-accent-foreground: oklch(0.205 0 0);
     --sidebar-border: oklch(0.922 0 0);
     --sidebar-ring: oklch(0.708 0 0);
+    --blue-pale: oklch(66.289% 0.06567 272.413);
     --rockefeller-blau: #04202c;
     --bludabo: #001823;
+    --kurresao: #23405c;
     --gdansk: #f7f7f7;
     --gullgossen: #e3c064;
+     --gullgossen-light: #ffe196;
     --weak-link: oklch(0.57 0 0);
-    --waleza: oklch(82.968% 0.00009 271.152);
+    --waleza: #d8d8d8
 }
 
 .dark {
@@ -129,8 +132,21 @@
     color:var(--gullgossen)
 }
 
+.text-white{
+    color:var(--gdansk)
+}
+
+
+.text-pale{
+    color:var(--waleza)
+}
+
 .font-merry {
     font-family: "Merriweather", serif;
+}
+
+.bg-light {
+    background-color: var(--kurresao);
 }
 
 .bg-primary {
@@ -138,7 +154,7 @@
     background-color: var(--rockefeller-blau);
 }
 .bg-secondary {
-    background-color: var(--gdansk);
+    background-color: var(--bludabo);
     /* background-color: #e9e8f0; */
 }
 .bg-third {
@@ -171,10 +187,11 @@
     body {
         @apply bg-background text-foreground;
         font-family: "Inter", sans-serif;
+        font-weight: 700;
     }
     p {
         @apply text-xs md:text-xs leading-relaxed mb-4 md:mb-4 ;
-        color: var(--gdansk)
+        color: var(--waleza)
     }
 
     li {

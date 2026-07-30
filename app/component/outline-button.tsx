@@ -15,12 +15,12 @@ export default function OutlineButton({
 }: OutlineButtonProps) {
   const styles = `
     flex items-center justify-center
-    border border-[var(--gullgossen)]
-    bg-transparent
-    text-[var(--gullgossen)]
+    bg-[var(--gullgossen)]
+    text-[var(--bludabo)]
     px-6 py-2
+    w-fit
     transition-colors
-    hover:bg-[var(--gullgossen)]
+    hover:bg-[var(--gullgossen-light)]
     hover:text-black
     ${className}
   `;
