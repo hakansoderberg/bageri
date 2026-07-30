@@ -9,19 +9,19 @@ const Home = () => {
     return (
         <div>
             <main>
-               <div className="flex flex-col md:flex-row justify-between gap-4 mb-4 md:mb-16">
-  <div className="w-full flex flex-col items-center text-center p-4 md:p-0">
-    <h1>{content.title}</h1>
-    <p>{content.text1}</p>
+                <div className="flex flex-col md:flex-row justify-between gap-4 mb-4 md:mb-16">
+                    <div className="w-full flex flex-col items-center text-center p-4 md:p-0">
+                        <h1>{content.title}</h1>
+                        <p>{content.text1}</p>
 
-    <OutlineButton
-      href="https://www.matochmat.se/lunch/sundsvall/gardehov-restaurang-catering/"
-      className="mt-4 self-center"
-    >
-      Se dagens meny →
-    </OutlineButton>
-  </div>
-</div>
+                        <OutlineButton
+                            href="https://www.matochmat.se/lunch/sundsvall/gardehov-restaurang-catering/"
+                            className="mt-4 self-center"
+                        >
+                            Se dagens meny →
+                        </OutlineButton>
+                    </div>
+                </div>
                 <div className="flex flex-col items-center justify-between mb-8 md:mb-16">
                     <HighlightBox className="w-fit text-center wrapper-line p-8">
                         <p className="text-base text-light inline font-merry">{mainContent.openingHours.title1}</p>
@@ -29,7 +29,7 @@ const Home = () => {
                         <p className="text-xs pt-2 mb-0">{mainContent.openingHours.text}</p>
                     </HighlightBox>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 md:mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <Card
                         linkUrl="/lunch"
                         title="Dagens lunch"

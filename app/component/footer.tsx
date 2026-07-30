@@ -2,9 +2,8 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="bg-primary py-8">
-            <div className="divider" />
-            <div className="container mx-auto px-6 max-w-screen-md">
+        <footer className="bg-secondary pb-8">
+            <div className="container mx-auto px-6 max-w-screen-md pt-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
@@ -53,10 +52,6 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
-
-                <div className="text-center mt-8 divider">
-                    <p className="text-sm pt-4">© 2025 Företagsnamn AB. Alla rättigheter förbehållna.</p>
                 </div>
             </div>
         </footer>
