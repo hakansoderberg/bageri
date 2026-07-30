@@ -1,29 +1,34 @@
-import Block from "../component/block";
+import Card from "../component/card";
+import ContactBox from "../component/contact-box";
+import InfoCard from "../component/info-card";
+import ContentSection from "../component/content-section";
+
 import cateringContent from "../content/catering-page.json";
 
 const Catering = () => {
     
     return (
-        <div>
-            <Block className="mb-8 md:mb-8 " dark>
-                <h1 className="text-light">{cateringContent.title}</h1>
-                <p className="text-light">{cateringContent.description}</p>
-            </Block>
-            <Block className="mb-8 md:mb-8">
-                <div>
-                    <p>
-                        <strong>Adress:</strong> {cateringContent.address}
-                    </p>
-
-                    <p>
-                        <strong>Telefon:</strong> {cateringContent.phone}
-                    </p>
-
-                    <p>
-                        <strong>E-post:</strong> {cateringContent.email}
-                    </p>
-                </div>
-            </Block>
+        <div className="flex flex-col items-center">
+            <ContentSection title={cateringContent.title} text={cateringContent.intro} />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                <InfoCard
+                title={cateringContent.dishesTitle}
+                text={cateringContent.dishes}
+                >
+               </InfoCard>
+                <InfoCard
+                title={cateringContent.smorgasTitle}
+                text={cateringContent.smorgas}
+                >
+               </InfoCard>
+            </div>
+            
+            <ContactBox
+                title={cateringContent.contact.title}
+                text={cateringContent.contact.text}
+                phone={cateringContent.contact.phone}
+                email={cateringContent.contact.email}
+            />
         </div>
     );
 };

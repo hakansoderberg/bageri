@@ -15,6 +15,7 @@ const Header = () => {
                 </div>
                 <div className="hidden md:flex">
                     <NavBarDesktop />
+                    
                 </div>
             </div>
         </header>

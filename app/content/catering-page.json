@@ -1,8 +1,23 @@
 {
-    "title": "Catering",
-    "intro": "Välkommen till Bageri! Vi är alltid glada att höra från våra kunder.",
-    "description": "Har du några frågor om våra produkter, öppettider eller vill du beställa något specifikt? Tveka inte att kontakta oss!",
-    "address": "Bageri AB, Storgatan 123, 123 45, Stad",
-    "phone": "012-345 6789",
-    "email": "info@bageri.se"
+    "title": "Catering från Gärdehov Restaurang & Catering",
+    "intro": "Låt oss ta hand om maten till ditt nästa kalas, möte, studentfirande, bröllop eller företagsevent!",
+    "menuTitle": "Vår cateringmeny",
+    "dishesTitle": "Rätter",
+    "dishes": [
+        "Sallader",
+        "Enchiladas",
+        "Viltfärsbiffar med kantarellsås",
+        "Ryggbiff med råstekt potatis och grönpepparsås"
+    ],
+    "smorgasTitle": "Smörgåstårtor",
+    "smorgas": [
+        "Ost & skinka",
+        "Lax & räkor",
+        "Italiensk"
+    ],
+    "contact": {
+        "title": "Har du egna önskemål?",
+        "text": "Vi skräddarsyr gärna en meny som passar just ditt sällskap. Kontakta oss så pratar vi vidare",
+        "phone": "+46 123 456 789",
+        "email": "info@gardehov.se"}
 }

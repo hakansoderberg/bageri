@@ -85,7 +85,7 @@
     --blue-pale: oklch(66.289% 0.06567 272.413);
     --rockefeller-blau: #04202c;
     --bludabo: #001823;
-    --kurresao: #23405c;
+    --kurresao: #1A3350;
     --gdansk: #f7f7f7;
     --gullgossen: #e3c064;
      --gullgossen-light: #ffe196;
@@ -190,7 +190,7 @@
         font-weight: 700;
     }
     p {
-        @apply text-xs md:text-xs leading-relaxed mb-4 md:mb-4 ;
+        @apply text-sm leading-relaxed mb-4 md:mb-4 ;
         color: var(--waleza)
     }
 
