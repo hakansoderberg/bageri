@@ -36,11 +36,11 @@ const NavBarMobile: React.FC = () => {
     return (
         <>
             {isOpen ? (
-                <div className="fixed top-8 right-4 z-50">
+                <div className="fixed top-4 right-4 z-50">
                     <CloseIcon onClick={() => setIsOpen(false)} />
                 </div>
             ) : (
-                <div className="fixed top-8 right-4 z-50">
+                <div className="fixed top-4 right-4 z-50">
                     <HamburgerIcon onClick={() => setIsOpen(true)} />
                 </div>
             )}
