@@ -179,6 +179,10 @@
 .color-mobile-icon{
     background-color: var(--gullgossen);
 }
+.footer-link {
+    color: var(--blue-pale);
+    font-size: small;
+}
 
 @layer base {
     * {
