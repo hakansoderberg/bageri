@@ -1,7 +1,8 @@
 {
-    "title": "Luncher",
-    "text1": "Varje vecka erbjuder vi ett varierat utbud av läckra lunchalternativ, inklusive smörgåstårta, fräscha sallader och matlådor. Vi strävar efter att erbjuda något för alla smaker och håller våra menyer säsongsanpassade.",
-    "text2": "Följ oss på Instagram för att hålla dig uppdaterad om veckans luncherbjudanden. Vi delar dagligen bilder och information om våra senaste luncher så att du inte missar något!",
+    "title": "Dagens lunch",
+    "text": "Lunchbuffé med husmanskost, varje vardag. Utöver dagens husman hittar du alltid tacos, pizza och sallad i buffén",
+    "infoTitle": "Alltid i buffén",
+    "infoRows": [" Dagens husmanskost", "Tacos", "Pizza", "Sallad", "Dryck & kaffe"],
     "grid": [
         { "url": "/images/smorgastarta.jpg", "alt": "Smörgåstårta" },
         { "url": "/images/sallad2.jpg", "alt": "Sallad" },

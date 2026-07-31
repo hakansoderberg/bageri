@@ -6,6 +6,8 @@
     
     },
     "phone":"+46 123 456 789",
-    "email":"info@gardehov.se"
+    "email":"info@gardehov.se",
+    "lunchButtonLink": "https://www.matochmat.se/lunch/sundsvall/gardehov-restaurang-catering/",
+    "lunchButtonText": "Se dagens meny →"
 
 }
