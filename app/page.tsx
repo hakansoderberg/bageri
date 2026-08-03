@@ -1,9 +1,7 @@
 import content from "./content/home-page.json";
 import mainContent from "./content/main.json";
-
 import Card from "./component/card";
 import HighlightBox from "./component/highlight-box";
-import OutlineButton from "./component/outline-button";
 import ContentSection from "./component/content-section";
 
 const Home = () => {
@@ -18,6 +16,7 @@ const Home = () => {
                         label: "Se dagens meny →",
                     }}
                 />
+                   
                 <div className="flex flex-col items-center justify-between mb-8 md:mb-16">
                     <HighlightBox className="w-fit text-center wrapper-line p-8">
                         <p className="text-base text-light inline font-merry">{mainContent.openingHours.title1}</p>

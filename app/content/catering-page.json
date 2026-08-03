@@ -10,14 +10,16 @@
         "Ryggbiff med råstekt potatis och grönpepparsås"
     ],
     "smorgasTitle": "Smörgåstårtor",
-    "smorgas": [
-        "Ost & skinka",
-        "Lax & räkor",
-        "Italiensk"
-    ],
+    "smorgas": ["Ost & skinka", "Lax & räkor", "Italiensk"],
     "contact": {
         "title": "Har du egna önskemål?",
         "text": "Vi skräddarsyr gärna en meny som passar just ditt sällskap. Kontakta oss så pratar vi vidare",
         "phone": "+46 123 456 789",
-        "email": "info@gardehov.se"}
+        "email": "info@gardehov.se"
+    },
+    "images": [
+        { "url": "/images/smorgastarta.jpg", "alt": "Catering 1" },
+        { "url": "/images/brod3.jpg", "alt": "Catering 2" },
+        { "url": "/images/bord-glas.jpeg", "alt": "Catering 3" }
+    ]
 }
