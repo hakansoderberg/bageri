@@ -9,7 +9,7 @@ const SlimInfoBox = ({ leftSection, rightSection }: SlimInfoBoxProps) => {
                 {leftSection}
             </div>
 
-            <div className="p-8 md:p-6">{rightSection}</div>
+            <div className="p-4 md:p-6">{rightSection}</div>
         </div>
     );
 };

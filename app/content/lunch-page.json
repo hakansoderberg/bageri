@@ -1,11 +1,12 @@
 {
     "title": "Dagens lunch",
-    "text": "Lunchbuffé med husmanskost, varje vardag. Utöver dagens husman hittar du alltid tacos, pizza och sallad i buffén",
+    "text": "I dagens lunch ingår sallad, pizza och taco buffe, kaffe och godsaker efter maten.",
     "infoTitle": "Alltid i buffén",
     "infoRows": [" Dagens husmanskost", "Tacos", "Pizza", "Sallad", "Dryck & kaffe"],
-    "grid": [
-        { "url": "/images/smorgastarta.jpg", "alt": "Smörgåstårta" },
-        { "url": "/images/sallad2.jpg", "alt": "Sallad" },
-        { "url": "/images/lunch2.jpg", "alt": "Matlåda" }
-    ]
+    "images":{
+        "sasImage":{
+            "url": "/images/sas.jpeg",
+            "alt": "Mat"
+        }
+    }
 }

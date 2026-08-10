@@ -1,31 +1,28 @@
 import ContentSection from "../component/content-section";
-import HighlightBox from "../component/highlight-box";
-import InfoCard from "../component/info-card";
+import Hero from "../component/hero";
+import OpeningHours from "../component/opening-hours";
 import PageContainer from "../component/page-container";
+import SplitFeature from "../component/split-feature";
 import content from "../content/lunch-page.json";
 import mainContent from "../content/main.json";
 
 const Lunch = () => {
     return (
-        <PageContainer>
-            <div className="flex flex-col items-center">
-                <ContentSection
-                    title={content.title}
-                    text={content.text}
-                    button={{ label: mainContent.lunchButtonText, href: mainContent.lunchButtonLink }}
-                />
-                <div className="flex flex-col items-center justify-between mb-8 md:mb-16">
-                    <HighlightBox className="w-fit text-center wrapper-line p-8">
-                        <p className="text-base text-light inline font-merry">{mainContent.openingHours.title1}</p>
-                        <p className="text-base text-pale inline ml-2 ">{mainContent.openingHours.title2}</p>
-                        <p className="text-xs pt-2 mb-0">{mainContent.openingHours.text}</p>
-                    </HighlightBox>
+        <main>
+            <Hero title={content.title} backgroundImage={"images/hero2.jpg"} height="40vh" />
+            <PageContainer>
+                <div className="flex flex-col items-center gap-8">
+                    <OpeningHours />
+                    <SplitFeature image={content.images.sasImage.url} imageAlt={content.images.sasImage.alt}>
+                        <ContentSection
+                            title={content.title}
+                            text={content.text}
+                            button={{ label: mainContent.lunchButtonText, href: mainContent.lunchButtonLink }}
+                        />
+                    </SplitFeature>
                 </div>
-                <div className="w-full md:w-1/2 text-center p-4 md:p-0">
-                    <InfoCard title={content.infoTitle} text={content.infoRows} />
-                </div>
-            </div>
-        </PageContainer>
+            </PageContainer>
+        </main>
     );
 };
 
