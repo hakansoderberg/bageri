@@ -3,10 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import NavBarDesktop from "./nav-bar-desktop";
 import NavBarMobile from "./nav-bar-mobile";
+import Hero from "./hero";
 
 const Header = () => {
     return (
-        <header className="bg-dark py-4 md:mb-16 ">
+        <header className="bg-dark py-4 ">
             <div className="flex flex-col md:flex-row md:justify-between md:items-center items-start px-4 md:px-8 py-4 md:py-8">
                 <Link href="/">
                 <div className="flex items-center mb-4 md:mb-0">

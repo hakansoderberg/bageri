@@ -20,7 +20,7 @@ const Card: React.FC<CardProps> = ({ linkUrl, title, text }) => {
                     {title}
                 </h3>
 
-                {Array.isArray(text) ? (
+                {/* {Array.isArray(text) ? (
                     text.map((item, index) => (
                         <p key={index} className="text-sm text-pale">
                             {item}
@@ -28,10 +28,10 @@ const Card: React.FC<CardProps> = ({ linkUrl, title, text }) => {
                     ))
                 ) : (
                     <p className="text-sm text-pale">{text}</p>
-                )}
+                )} */}
             </div>
 
-            <span className="inline-block mt-3 text-sm font-semibold text-[var(--gullgossen)] hover:underline">
+            <span className="inline-block text-sm font-semibold text-white hover:underline">
                 Läs mer →
             </span>
         </div>

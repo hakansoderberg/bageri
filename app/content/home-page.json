@@ -1,6 +1,8 @@
-{
-    "title": "Välkommen till Gärdehov Restaurang & Catering",
-    "text1": "Välkommen till Gärdehov Restaurang & Catering i Sundsvall. Här serveras klassisk husmanskost i en avslappnad miljö mitt i Gärdehov Arena. Perfekt för en enkel och god lunch utan krångel. Du hittar oss på Johannedalsvägen 121. Ät gott, bli mätt och gå vidare med dagen.",
+{   "hero-title": "Gärdehov Restaurang & Catering",
+"hero-subtitle": "Klassisk husmanskost i Sundsvall",
+    "title": "Välkommen till Gärdehov",
+    "text1": "Välkommen till Gärdehov Restaurang & Catering i Sundsvall. Här serveras klassisk husmanskost i en avslappnad miljö mitt i Gärdehov Arena.",
+    "text1-oanvand": "Välkommen till Gärdehov Restaurang & Catering i Sundsvall. Här serveras klassisk husmanskost i en avslappnad miljö mitt i Gärdehov Arena. Perfekt för en enkel och god lunch utan krångel. Du hittar oss på Johannedalsvägen 121. Ät gott, bli mätt och gå vidare med dagen.",
     "image1": {
         "url": "/images/sas.jpeg",
         "alt": "Bild på bageri"
@@ -16,7 +18,7 @@
         {
             "title": "Hitta till oss!",
             "linkUrl": "/om-oss",
-            "imageUrl": "/images/brod.jpg",
+            "imageUrl": "/images/bord-glas.jpeg",
             "imageAlt": "Bild på bröd"
         },
         {

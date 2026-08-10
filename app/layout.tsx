@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./component/header";
 import Footer from "./component/footer";
+import Hero from "./component/hero";
 
 export const metadata: Metadata = {
     title: "Hagabagarn",
@@ -24,7 +25,7 @@ export default function RootLayout({
             <body className="antialiased bg-primary text-primary min-h-screen flex flex-col">
                 <Header />
                 
-                <main className="flex-1 max-w-screen-lg mx-auto px-4 md:px-0 pt-8 pb-8 md:pb-16">{children}</main>
+                <main className="flex-1">{children}</main>
                 
                 <Footer />
             </body>
