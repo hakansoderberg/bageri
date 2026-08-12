@@ -1,7 +1,7 @@
 {
     "title": "Catering från Gärdehov Restaurang & Catering",
     "intro": "Låt oss ta hand om maten till ditt nästa kalas, möte, studentfirande, bröllop eller företagsevent!",
-    "menuTitle": "Vår cateringmeny",
+    "menuTitle": "Våra populära alternativ",
     "dishesTitle": "Rätter",
     "dishes": [
         "Sallader",
@@ -17,9 +17,15 @@
         "phone": "+46 123 456 789",
         "email": "info@gardehov.se"
     },
-    "images": [
-        { "url": "/images/smorgastarta.jpg", "alt": "Catering 1" },
-        { "url": "/images/brod3.jpg", "alt": "Catering 2" },
-        { "url": "/images/bord-glas.jpeg", "alt": "Catering 3" }
+    "images":{
+        "cateringImage": {
+            "url": "/images/catering.jpg",
+            "alt": "Bild på cateringmat"
+        }
+    },
+    "menuItems": [
+        { "name": "Kycklingenchiladas", "description":"Serveras med sallad","price": "110", "unit": "kr/person" },
+        { "name": "Viltfärsbiffar", "description":"Med kantarellsås och potatisgratäng","price": "130", "unit": "kr/person" },
+        { "name": "Ryggbiff", "description":"Med råstekt potatis och grönpepparsås", "price": "150", "unit": "kr/person" }
     ]
 }

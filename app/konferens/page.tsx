@@ -1,12 +1,15 @@
 import Block from "../component/block";
 import ContactBox from "../component/contact-box";
 import ContentSection from "../component/content-section";
+import Hero from "../component/hero";
 import HighlightBox from "../component/highlight-box";
 import PageContainer from "../component/page-container";
 import content from "../content/conference.json";
 
 const ConferencePage = () => {
     return (
+        <div>
+        <Hero title={content.title} backgroundImage={"images/hero-konf.png"} height="40vh" />
         <PageContainer>
             <div className="flex flex-col items-center">
                 <ContentSection title={content.title} text={content.description} />
@@ -18,6 +21,7 @@ const ConferencePage = () => {
                 />
             </div>
         </PageContainer>
+        </div>
     );
 };
 

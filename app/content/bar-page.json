@@ -1,5 +1,19 @@
 {
     "title": "Bar & Evenemang",
     "description": "Välkommen till vår bar och evenemangsavdelning! Här kan du njuta av en unik atmosfär med ett brett utbud av drycker och spännande evenemang. Oavsett om du vill koppla av med vänner, delta i en temakväll eller fira en speciell händelse, har vi något för alla smaker.",
-    "text1": "Vår bar erbjuder ett noggrant utvalt sortiment av drycker, inklusive lokala ölsorter, vin från utvalda producenter och läckra cocktails. Håll utkik efter våra temakvällar och specialevenemang som gör varje besök unikt!"
+    "text1": "Vår bar erbjuder ett noggrant utvalt sortiment av drycker, inklusive lokala ölsorter, vin från utvalda producenter och läckra cocktails. Håll utkik efter våra temakvällar och specialevenemang som gör varje besök unikt!",
+    "images": {
+        "olImage": {
+            "url": "/images/ol.jpg",
+            "alt": "Bild på en kall öl i baren"
+        },
+        "bubbelImage": {
+            "url": "/images/bubbel.jpg",
+            "alt": "Bild på bubbel i baren"
+        }
+    },
+    "olTitle": "Öl",
+    "bubbelTitle": "Bubbel",
+    "olText": "Text om öl öl öl öl och text om mer öl",
+    "bubbelText": "Bubbel bubbel bubbel bubbel och text om mer bubbel"
 }

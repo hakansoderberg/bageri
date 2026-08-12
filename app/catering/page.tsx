@@ -1,32 +1,35 @@
-import Card from "../component/card";
 import ContactBox from "../component/contact-box";
-import InfoCard from "../component/info-card";
 import ContentSection from "../component/content-section";
-
 import cateringContent from "../content/catering-page.json";
-import ImageGrid from "../component/image-grid";
 import PageContainer from "../component/page-container";
+import Hero from "../component/hero";
+import CateringMenu from "../component/catering-box";
+import SplitFeature from "../component/split-feature";
 
 const Catering = () => {
     return (
-        <PageContainer>
-            <div className="flex flex-col items-center">
-                <ContentSection title={cateringContent.title} text={cateringContent.intro} />
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                    <InfoCard title={cateringContent.dishesTitle} text={cateringContent.dishes}></InfoCard>
-                    <InfoCard title={cateringContent.smorgasTitle} text={cateringContent.smorgas}></InfoCard>
+        <div>
+            <Hero title={cateringContent.title} backgroundImage={"images/hero-catering.png"} height="40vh" />
+            <PageContainer>
+                <div className="flex flex-col items-center">
+                    <SplitFeature image={cateringContent.images.cateringImage.url} imageAlt={cateringContent.images.cateringImage.alt}>
+                        <ContentSection title={cateringContent.title} text={cateringContent.intro}  />
+                    </SplitFeature>
+                    <div className="mb-8"></div>
+                    <CateringMenu
+                        title={cateringContent.menuTitle}
+                        items={cateringContent.menuItems}
+                    />
+                    <div className="mb-8"></div>
+                    <ContactBox
+                        title={cateringContent.contact.title}
+                        text={cateringContent.contact.text}
+                        phone={cateringContent.contact.phone}
+                        email={cateringContent.contact.email}
+                    />
                 </div>
-                <div className="mb-8">
-                    <ImageGrid images={cateringContent.images} />
-                </div>
-                <ContactBox
-                    title={cateringContent.contact.title}
-                    text={cateringContent.contact.text}
-                    phone={cateringContent.contact.phone}
-                    email={cateringContent.contact.email}
-                />
-            </div>
-        </PageContainer>
+            </PageContainer>
+        </div>
     );
 };
 
