@@ -1,10 +1,20 @@
 "use client";
+
 import React, { useState } from "react";
 import HamburgerIcon from "./hamburger-icon";
 import CloseIcon from "./close-icon";
 import { useRouter, usePathname } from "next/navigation";
 
-const NavBarMobile: React.FC = () => {
+type NavItem = {
+    href: string;
+    text: string;
+};
+
+type NavBarMobileProps = {
+    items: NavItem[];
+};
+
+const NavBarMobile: React.FC<NavBarMobileProps> = ({ items }) => {
     const router = useRouter();
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +24,7 @@ const NavBarMobile: React.FC = () => {
         setIsOpen(false);
     };
 
-    const LinkItem = ({ href, text }: { href: string; text: string }) => {
+    const LinkItem = ({ href, text }: NavItem) => {
         const isActive = pathname === href;
 
         return (
@@ -22,9 +32,10 @@ const NavBarMobile: React.FC = () => {
                 onClick={() => navigate(href)}
                 className={`
                     text-xl font-semibold font-merry transition-all duration-200
-                    ${isActive
-                        ? "text-[var(--gullgossen)] underline underline-offset-4"
-                        : "text-[var(--gdansk)] hover:text-[var(--gullgossen)]"
+                    ${
+                        isActive
+                            ? "text-[var(--gullgossen)] underline underline-offset-4"
+                            : "text-[var(--gdansk)] hover:text-[var(--gullgossen)]"
                     }
                 `}
             >
@@ -44,15 +55,19 @@ const NavBarMobile: React.FC = () => {
                     <HamburgerIcon onClick={() => setIsOpen(true)} />
                 </div>
             )}
+
             <div
                 className={`${
                     isOpen ? "translate-y-0" : "-translate-y-full"
                 } fixed top-0 left-0 w-full bg-primary bg-opacity-80 z-40 flex flex-col items-center justify-start space-y-6 py-24 transition-transform duration-300`}
             >
-                <LinkItem href="/" text="Hem" />
-                <LinkItem href="/lunch" text="Lunch" />
-                <LinkItem href="/catering" text="Catering" />
-                <LinkItem href="/konferens" text="Konferens" />
+                {items.map((item) => (
+                    <LinkItem
+                        key={item.href}
+                        href={item.href}
+                        text={item.text}
+                    />
+                ))}
             </div>
         </>
     );

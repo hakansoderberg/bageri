@@ -6,6 +6,13 @@ import NavBarMobile from "./nav-bar-mobile";
 import Hero from "./hero";
 
 const Header = () => {
+    const navItems = [
+    { href: "/", text: "Hem" },
+    { href: "/lunch", text: "Lunch" },
+    { href: "/catering", text: "Catering" },
+    { href: "/konferens", text: "Konferens" },
+    { href: "/bar", text: "Bar & Evenemang" },
+];
     return (
         <header className="bg-dark py-4 ">
             <div className="flex flex-col md:flex-row md:justify-between md:items-center items-start px-4 md:px-8 py-4 md:py-8">
@@ -17,11 +24,10 @@ const Header = () => {
                 
                 </Link>
                 <div className="md:hidden">
-                    <NavBarMobile />
+                    <NavBarMobile items={navItems} />
                 </div>
                 <div className="hidden md:flex">
-                    <NavBarDesktop />
-                    
+                    <NavBarDesktop items={navItems} />
                 </div>
             </div>
         </header>
