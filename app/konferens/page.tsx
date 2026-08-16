@@ -2,6 +2,7 @@ import { CheckCircle, Monitor, Sparkles, Users } from "lucide-react";
 import Image from "next/image";
 import Hero from "../component/hero";
 import PageContainer from "../component/page-container";
+import SlimContent from "../component/slim-content";
 import TextPanel from "../component/text-panel";
 import conferenceContent from "../content/conference.json";
 import ContactBox from "../component/contact-box";
@@ -19,11 +20,13 @@ const ConferencePage = () => {
 
             <PageContainer>
                 <div className="flex flex-col items-center">
-                    <TextPanel
-                        eyebrow={conferenceContent.contact.eyebrow}
-                        title={conferenceContent.introTitle}
-                        text={conferenceContent.description}
-                    />
+                    <SlimContent>
+                        <TextPanel
+                            eyebrow={conferenceContent.contact.eyebrow}
+                            title={conferenceContent.introTitle}
+                            text={conferenceContent.description}
+                        />
+                    </SlimContent>
 
                     <div className="mt-8 w-full">
                         <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-0">

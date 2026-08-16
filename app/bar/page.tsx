@@ -1,6 +1,7 @@
 import ContentSection from "../component/content-section";
 import Hero from "../component/hero";
 import PageContainer from "../component/page-container";
+import SlimContent from "../component/slim-content";
 import SplitFeature from "../component/split-feature";
 import TextPanel from "../component/text-panel";
 import content from "../content/bar-page.json";
@@ -11,11 +12,13 @@ const Bar = () => {
             <Hero title={content.title} backgroundImage={"images/hero-bar1.png"} height="40vh" />
             <PageContainer>
                 <div className="flex flex-col items-center gap-8">
-                    <TextPanel
-                        eyebrow={content.eyebrow}
-                        title={content.introTitle}
-                        text={content.description}
-                    />
+                    <SlimContent>
+                        <TextPanel
+                            eyebrow={content.eyebrow}
+                            title={content.introTitle}
+                            text={content.description}
+                        />
+                    </SlimContent>
                     <SplitFeature image={content.images.olImage.url} imageAlt={content.images.olImage.alt}>
                         <ContentSection
                             title={content.olTitle}
