@@ -10,9 +10,10 @@ interface CateringMenuProps {
   items: MenuItem[];
 }
 
-const CateringMenu: React.FC<CateringMenuProps> = ({ title, items }) => {
+const CateringMenu: React.FC<CateringMenuProps> = ({ title, items  }) => {
+
   return (
-    <div className="w-full sm:w-3/4 border border-[var(--gullgossen)] rounded-sm px-6 py-8 sm:px-11 sm:py-10 mx-auto">
+    <div className={`w-full border border-[var(--gullgossen)] rounded-sm px-6 py-8 sm:px-11 sm:py-10 mx-auto`}>
       {/* Rubrik */}
       <h2 className="font-merry font-semibold text-xl sm:text-2xl text-center tracking-wide sm:tracking-widest text-[var(--gullgossen)] uppercase">
         {title}

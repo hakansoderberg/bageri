@@ -20,6 +20,17 @@ const Catering = () => {
                         title={cateringContent.menuTitle}
                         items={cateringContent.menuItems}
                     />
+
+                    <div className="mt-8 grid w-full gap-6 md:grid-cols-2">
+                        {cateringContent.additionalMenus.map((menu) => (
+                            <CateringMenu
+                                key={menu.title}
+                                title={menu.title}
+                                items={menu.items}
+                            />
+                        ))}
+                    </div>
+
                     <div className="mb-8"></div>
                     <ContactBox
                         title={cateringContent.contact.title}
