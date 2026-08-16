@@ -1,7 +1,6 @@
 {
     "title": "Konferens",
     "description": "Boka konferens hos oss! Behöver ni en konferenslokal för möten, utbildningar eller planeringsdagar? Hos Gärdehov Restaurang & Catering erbjuder vi en trivsam konferenslokal där ni kan kombinera mötet med god mat och fika. Kontakta oss så berättar vi mer och hjälper er att boka!",
-    "heroSubtitle": "Gärdehov Restaurang & Catering har den perfekta!",
     "introTitle": "Behöver ni konferenslokal?",
     "features": [
         "Fika, lunch eller middag",
@@ -10,6 +9,7 @@
         "Allt ni behöver för en lyckad konferens"
     ],
     "contact": {
+        "eyebrow": "Konferens",
         "title": "Kontakta oss så berättar vi mer",
         "text": "Vi hjälper er att hitta rätt upplägg för ert möte — och bokar in datumet direkt.",
         "phone": "060-19 00 00",

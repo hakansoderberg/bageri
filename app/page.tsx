@@ -34,17 +34,9 @@ const Home = () => {
                     <div className="mb-8 md:mb-16"></div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        <Card
-                            linkUrl="/lunch"
-                            title="Dagens lunch"
-                            text="En väldigt bra text om lunchen skulle passa här"
-                        />
-                        <Card
-                            linkUrl="/konferens"
-                            title="Konferens"
-                            text="Konferenstexten skulle sitta som en smäck här"
-                        />
-                        <Card linkUrl="/catering" title="Catering" text="En ännu bättre text om catering här" />
+                        <Card linkUrl="/lunch" title="Dagens lunch" />
+                        <Card linkUrl="/konferens" title="Konferens" />
+                        <Card linkUrl="/catering" title="Catering" />
                     </div>
                 </PageContainer>
             </main>

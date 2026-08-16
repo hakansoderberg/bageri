@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 interface CardProps {
     linkUrl: string;
     title: string;
-    text: string | string[];
+    text?: string | string[];
 }
 
 const Card: React.FC<CardProps> = ({ linkUrl, title, text }) => {
