@@ -23,8 +23,8 @@ const LinkItem = ({ href, text }: NavItem) => {
                 font-semibold text-md px-4 py-2 rounded-xs transition-all duration-200 font-merry
                 ${
                     isActive
-                        ? "text-[var(--gullgossen)] underline underline-offset-4"
-                        : "text-[var(--gdansk)] hover:text-[var(--gullgossen)]"
+                        ? "text-[var(--color-gold)] underline underline-offset-4"
+                        : "text-[var(--color-text-offwhite)] hover:text-[var(--color-gold)]"
                 }
             `}
         >

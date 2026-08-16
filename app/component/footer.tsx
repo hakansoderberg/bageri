@@ -3,7 +3,7 @@ const footerLinkStyle = "hover:text-black-100 footer-link";
 const footerTextStyle = "footer-link";
 const Footer = () => {
     return (
-        <footer className="bg-secondary pb-8">
+        <footer className="bg-navy-deep pb-8">
             <div className="container mx-auto px-6 max-w-screen-md pt-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div>

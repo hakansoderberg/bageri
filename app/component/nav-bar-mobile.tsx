@@ -34,8 +34,8 @@ const NavBarMobile: React.FC<NavBarMobileProps> = ({ items }) => {
                     text-xl font-semibold font-merry transition-all duration-200
                     ${
                         isActive
-                            ? "text-[var(--gullgossen)] underline underline-offset-4"
-                            : "text-[var(--gdansk)] hover:text-[var(--gullgossen)]"
+                            ? "text-[var(--color-gold)] underline underline-offset-4"
+                            : "text-[var(--color-text-offwhite)] hover:text-[var(--color-gold)]"
                     }
                 `}
             >
@@ -59,7 +59,7 @@ const NavBarMobile: React.FC<NavBarMobileProps> = ({ items }) => {
             <div
                 className={`${
                     isOpen ? "translate-y-0" : "-translate-y-full"
-                } fixed top-0 left-0 w-full bg-primary bg-opacity-80 z-40 flex flex-col items-center justify-start space-y-6 py-24 transition-transform duration-300`}
+                } fixed top-0 left-0 w-full bg-navy bg-opacity-80 z-40 flex flex-col items-center justify-start space-y-6 py-24 transition-transform duration-300`}
             >
                 {items.map((item) => (
                     <LinkItem

@@ -14,7 +14,7 @@ const Header = () => {
     { href: "/bar", text: "Bar & Evenemang" },
 ];
     return (
-        <header className="bg-dark py-4 ">
+        <header className="bg-navy-deep py-4 ">
             <div className="flex flex-col md:flex-row md:justify-between md:items-center items-start px-4 md:px-8 py-4 md:py-8">
                 <Link href="/">
                 <div className="flex items-center mb-4 md:mb-0">

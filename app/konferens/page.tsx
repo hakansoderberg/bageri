@@ -34,11 +34,11 @@ const ConferencePage = () => {
                                         key={featureText}
                                         className={`
                                             flex items-center justify-center px-4 py-6 text-center
-                                            ${index < conferenceContent.features.length - 1 ? "md:border-r md:border-[var(--gdansk)]/50" : ""}
+                                            ${index < conferenceContent.features.length - 1 ? "md:border-r md:border-[var(--color-text-offwhite)]/50" : ""}
                                         `}
                                     >
                                         <div>
-                                            <Icon className="mx-auto h-8 w-8 text-[var(--gullgossen)] md:h-10 md:w-10" />
+                                            <Icon className="mx-auto h-8 w-8 text-[var(--color-gold)] md:h-10 md:w-10" />
                                             <p className="mt-4 text-sm text-[var(--muted)] md:text-base">
                                                 {featureText}
                                             </p>

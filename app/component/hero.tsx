@@ -21,12 +21,12 @@ const Hero: React.FC<HeroProps> = ({ title, subTitle, backgroundImage, height = 
 
             {/* content */}
             <div className="relative z-10 w-full flex justify-center items-center px-4">
-                <div className="text-center text-light max-w-2xl px-4 text-white">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl text-white leading-tight">
+                <div className="text-center text-offwhite max-w-2xl px-4">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl text-offwhite leading-tight">
                         {title}
                     </h1>
                     {subTitle && (
-                        <p className="mt-2 text-white text-sm sm:text-base md:text-lg tracking-wide">
+                        <p className="mt-2 text-offwhite text-sm sm:text-base md:text-lg tracking-wide">
                             {subTitle}
                         </p>
                     )}

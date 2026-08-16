@@ -14,16 +14,16 @@ const TextPanel: React.FC<TextPanelProps> = ({
   ctaHref,
 }) => {
   return (
-    <div className="border border-[var(--gullgossen)] max-w-[1100px] mx-auto px-7 py-10 sm:px-14 sm:py-12 text-center">
+    <div className="border border-[var(--color-gold)] max-w-[1100px] mx-auto px-7 py-10 sm:px-14 sm:py-12 text-center">
       <div className="flex items-center gap-4 sm:gap-5 mb-5">
-        <span className="flex-1 h-px bg-[var(--gullgossen)] opacity-50" />
-        <span className="font-mono text-xs tracking-[0.12em] uppercase text-[var(--gullgossen-soft)] whitespace-nowrap">
+        <span className="flex-1 h-px bg-[var(--color-gold)] opacity-50" />
+        <span className="font-mono text-xs tracking-[0.12em] uppercase text-[var(--color-gold-soft)] whitespace-nowrap">
           {eyebrow}
         </span>
-        <span className="flex-1 h-px bg-[var(--gullgossen)] opacity-50" />
+        <span className="flex-1 h-px bg-[var(--color-gold)] opacity-50" />
       </div>
 
-      <h2 className="font-merry text-3xl sm:text-4xl text-[var(--gullgossen)] mb-4">
+      <h2 className="font-merry text-3xl sm:text-4xl text-[var(--color-gold)] mb-4">
         {title}
       </h2>
 
@@ -34,7 +34,7 @@ const TextPanel: React.FC<TextPanelProps> = ({
       {ctaLabel && ctaHref && (
         <a
           href={ctaHref}
-          className="inline-block mt-6 bg-[var(--gullgossen)] text-[var(--gdansk)] font-semibold text-sm px-8 py-3.5 hover:bg-[var(--gullgossen-soft)] transition-colors"
+          className="inline-block mt-6 bg-[var(--color-gold)] text-[var(--color-text-offwhite)] font-semibold text-sm px-8 py-3.5 hover:bg-[var(--color-gold-soft)] transition-colors"
         >
           {ctaLabel}
         </a>
