@@ -1,9 +1,9 @@
 import content from "./content/home-page.json";
 import Card from "./component/card";
-import ContentSection from "./component/content-section";
 import Hero from "./component/hero";
 import PageContainer from "./component/page-container";
-import SplitFeature from "./component/split-feature";
+import SlimContent from "./component/slim-content";
+import TextPanel from "./component/text-panel";
 import OpeningHours from "./component/opening-hours";
 
 const Home = () => {
@@ -17,17 +17,16 @@ const Home = () => {
                 ></Hero>
                 <PageContainer>
                     <div className="flex flex-col items-center justify-between mb-8 md:mb-16">
-                        <div className="mb-8">
-                            <SplitFeature image={content.links[1].imageUrl} imageAlt={content.links[1].imageAlt}>
-                                <ContentSection
+                        <div className="mb-8 w-full">
+                            <SlimContent>
+                                <TextPanel
+                                    eyebrow={content.eyebrow}
                                     title={content.title}
                                     text={content.text1}
-                                    button={{
-                                        href: "https://www.matochmat.se/lunch/sundsvall/gardehov-restaurang-catering/",
-                                        label: "Se dagens meny →",
-                                    }}
+                                    ctaLabel="Se dagens meny →"
+                                    ctaHref="https://www.matochmat.se/lunch/sundsvall/gardehov-restaurang-catering/"
                                 />
-                            </SplitFeature>
+                            </SlimContent>
                         </div>
                         <OpeningHours />
                     </div>

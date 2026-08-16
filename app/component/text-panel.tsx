@@ -1,3 +1,5 @@
+import OutlineButton from "./outline-button";
+
 interface TextPanelProps {
   eyebrow: string;
   title: string;
@@ -32,12 +34,12 @@ const TextPanel: React.FC<TextPanelProps> = ({
       </p>
 
       {ctaLabel && ctaHref && (
-        <a
+        <OutlineButton
           href={ctaHref}
-          className="inline-block mt-6 bg-[var(--color-gold)] text-[var(--color-text-offwhite)] font-semibold text-sm px-8 py-3.5 hover:bg-[var(--color-gold-soft)] transition-colors"
+          className="mt-6 mx-auto font-semibold text-sm px-8 py-3.5"
         >
           {ctaLabel}
-        </a>
+        </OutlineButton>
       )}
     </div>
   );
