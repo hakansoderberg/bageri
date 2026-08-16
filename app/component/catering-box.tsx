@@ -13,7 +13,7 @@ interface CateringMenuProps {
 const CateringMenu: React.FC<CateringMenuProps> = ({ title, items  }) => {
 
   return (
-    <div className={`w-full border border-[var(--color-gold)] rounded-sm px-6 py-8 sm:px-11 sm:py-10 mx-auto`}>
+    <div className={`w-full border border-[var(--color-gold)] rounded-xs px-6 py-8 sm:px-11 sm:py-10 mx-auto`}>
       {/* Rubrik */}
       <h2 className="font-merry font-semibold text-xl sm:text-2xl text-center tracking-wide sm:tracking-widest text-[var(--color-gold)] uppercase">
         {title}
@@ -26,7 +26,7 @@ const CateringMenu: React.FC<CateringMenuProps> = ({ title, items  }) => {
           className={`${i > 0 ? "border-t border-[var(--color-text-offwhite)] mt-5 pt-5" : "mt-8"}`}
         >
           <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-2.5">
-            <span className="font-merry font-semibold text-lg sm:text-xl tracking-wide uppercase text-[var(--color-text-offwhite)]">
+            <span className="font-merry font-semibold text-lg sm:text-xl tracking-wide uppercase text-[var(--color-text-muted)]">
               {item.name}
             </span>
 

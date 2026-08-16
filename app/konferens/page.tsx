@@ -1,4 +1,5 @@
 import { CheckCircle, Monitor, Sparkles, Users } from "lucide-react";
+import Image from "next/image";
 import Hero from "../component/hero";
 import PageContainer from "../component/page-container";
 import TextPanel from "../component/text-panel";
@@ -34,12 +35,12 @@ const ConferencePage = () => {
                                         key={featureText}
                                         className={`
                                             flex items-center justify-center px-4 py-6 text-center
-                                            ${index < conferenceContent.features.length - 1 ? "md:border-r md:border-[var(--color-text-offwhite)]/50" : ""}
+                                            ${index < conferenceContent.features.length - 1 ? "md:border-r md:border-[var(--color-text-muted)]/50" : ""}
                                         `}
                                     >
                                         <div>
                                             <Icon className="mx-auto h-8 w-8 text-[var(--color-gold)] md:h-10 md:w-10" />
-                                            <p className="mt-4 text-sm text-[var(--muted)] md:text-base">
+                                            <p className="mt-4 text-sm text-[var(--color-text-muted)] md:text-base">
                                                 {featureText}
                                             </p>
                                         </div>
@@ -50,12 +51,28 @@ const ConferencePage = () => {
                     </div>
 
                     <div className="mt-8 w-full">
+                        <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+                            {conferenceContent.gallery.map((image) => (
+                                <div key={image.url} className="relative aspect-square w-full overflow-hidden">
+                                    <Image
+                                        src={image.url}
+                                        alt={image.alt}
+                                        fill
+                                        sizes="(max-width: 768px) 100vw, 33vw"
+                                        className="object-cover"
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="mt-8">
                         <ContactBox
                             title={conferenceContent.contact.title}
                             text={conferenceContent.contact.text}
                             phone={conferenceContent.contact.phone}
                             email={conferenceContent.contact.email}
-                            className="mx-auto max-w-[460px]"
+                            
                         />
                     </div>
                 </div>

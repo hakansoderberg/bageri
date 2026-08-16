@@ -14,7 +14,7 @@ const TextPanel: React.FC<TextPanelProps> = ({
   ctaHref,
 }) => {
   return (
-    <div className="border border-[var(--color-gold)] max-w-[1100px] mx-auto px-7 py-10 sm:px-14 sm:py-12 text-center">
+    <div className="border border-[var(--color-gold)] mx-auto px-7 py-10 sm:px-14 sm:py-12 text-center">
       <div className="flex items-center gap-4 sm:gap-5 mb-5">
         <span className="flex-1 h-px bg-[var(--color-gold)] opacity-50" />
         <span className="font-mono text-xs tracking-[0.12em] uppercase text-[var(--color-gold-soft)] whitespace-nowrap">
@@ -27,7 +27,7 @@ const TextPanel: React.FC<TextPanelProps> = ({
         {title}
       </h2>
 
-      <p className="text-[var(--muted)] text-[15.5px] leading-relaxed max-w-[62ch] mx-auto">
+      <p className="text-[var(--color-text-muted)] text-[15.5px] leading-relaxed max-w-[62ch] mx-auto">
         {text}
       </p>
 

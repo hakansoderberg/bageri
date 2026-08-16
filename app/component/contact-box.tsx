@@ -16,7 +16,7 @@ export default function ContactBox({
     className = "",
 }: ContactBoxProps) {
     return (
-        <HighlightBox className={`w-fit text-center wrapper-line p-8 ${className}`}>
+        <HighlightBox className={`w-full text-center wrapper-line p-8 ${className}`}>
             <p className="text-base text-gold font-merry">{title}</p>
             <p className="text-sm text-pale">{text}</p>
             <p className="text-xs pt-2 mb-0">{phone}</p>
