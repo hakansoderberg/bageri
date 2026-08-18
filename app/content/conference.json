@@ -19,26 +19,5 @@
         { "url": "/images/bord-glas.jpeg", "alt": "Dukat bord med glas" },
         { "url": "/images/lunch1.jpg", "alt": "Lunch serverad på konferens" },
         { "url": "/images/sallad2.jpg", "alt": "Sallad till konferenslunch" }
-    ],
-    "links": [
-        {
-            "title": "Tårtor",
-            "linkUrl": "/sortiment/tartor",
-            "imageUrl": "/images/tarta.jpg",
-            "imageAlt": "Bild på tårta"
-        },
-        { "title": "Bröd", "linkUrl": "/sortiment/brod", "imageUrl": "/images/brod.jpg", "imageAlt": "Bild på bröd" },
-        {
-            "title": "Lunch",
-            "linkUrl": "/sortiment/lunch",
-            "imageUrl": "/images/sallad2.jpg",
-            "imageAlt": "Bild på sallad lunch"
-        },
-        {
-            "title": "Bakelser",
-            "linkUrl": "/sortiment/bakelser",
-            "imageUrl": "/images/punchrulle.jpg",
-            "imageAlt": "Bild på punchrulle"
-        }
     ]
 }

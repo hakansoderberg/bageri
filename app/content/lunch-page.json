@@ -1,8 +1,6 @@
 {
     "title": "Dagens lunch",
     "text": "I dagens lunch ingår sallad, pizza och taco buffe, kaffe och godsaker efter maten.",
-    "infoTitle": "Alltid i buffén",
-    "infoRows": [" Dagens husmanskost", "Tacos", "Pizza", "Sallad", "Dryck & kaffe"],
     "images":{
         "sasImage":{
             "url": "/images/sas.jpeg",

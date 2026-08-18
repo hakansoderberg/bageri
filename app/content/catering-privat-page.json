@@ -3,32 +3,12 @@
     "eyebrow": "Privata fester",
     "introTitle": "Fest utan stress",
     "intro": "Vi lagar maten till kalaset, bröllopet, dopet eller studentfirandet, så att du kan ägna dagen åt dina gäster istället för köket. Se våra populära alternativ nedan, eller hör av dig om du har egna önskemål.",
-    "menuTitle": "Populära alternativ för privata fester",
     "contact": {
         "title": "Har du egna önskemål?",
         "text": "Berätta om ditt sällskap och tillfälle, så komponerar vi en meny som passar er perfekt.",
         "phone": "+46 123 456 789",
         "email": "info@gardehov.se"
     },
-    "images": {
-        "cateringImage": {
-            "url": "/images/catering.jpg",
-            "alt": "Bild på cateringmat för privata fester"
-        }
-    },
-    "menuItems": [
-        { "name": "Smörgåstårta", "description": "Ost & skinka, Lax & räkor eller Italiensk", "price": "220", "unit": "kr/tårta" },
-        { "name": "Viltfärsbiffar", "description": "Med kantarellsås och potatisgratäng", "price": "130", "unit": "kr/person" },
-        { "name": "Salladsbuffé", "description": "Med färska grönsaker, såser och bröd", "price": "95", "unit": "kr/person" }
-    ],
-    "additionalMenus": [
-        {
-            "title": "Vegansk special",
-            "items": [
-                { "name": "Grillad grönsaksbowl", "description": "Med quinoa, hummus och örter.", "price": "120", "unit": "kr/person" }
-            ]
-        }
-    ],
     "buffeTitle": "Buffealternativ",
     "buffeAlternativ": [
         {

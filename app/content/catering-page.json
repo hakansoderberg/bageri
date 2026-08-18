@@ -1,28 +1,5 @@
 {
     "title": "Catering",
-    "intro": "Låt oss ta hand om maten till ditt nästa kalas, möte, studentfirande, bröllop eller företagsevent!",
-    "menuTitle": "Våra populära alternativ",
-    "dishesTitle": "Rätter",
-    "dishes": [
-        "Sallader",
-        "Enchiladas",
-        "Viltfärsbiffar med kantarellsås",
-        "Ryggbiff med råstekt potatis och grönpepparsås"
-    ],
-    "smorgasTitle": "Smörgåstårtor",
-    "smorgas": ["Ost & skinka", "Lax & räkor", "Italiensk"],
-    "contact": {
-        "title": "Har du egna önskemål?",
-        "text": "Vi skräddarsyr gärna en meny som passar just ditt sällskap. Kontakta oss så pratar vi vidare",
-        "phone": "+46 123 456 789",
-        "email": "info@gardehov.se"
-    },
-    "images":{
-        "cateringImage": {
-            "url": "/images/catering.jpg",
-            "alt": "Bild på cateringmat"
-        }
-    },
     "audienceCards": [
         {
             "title": "För företag",
@@ -35,25 +12,6 @@
             "text": "Fester, bröllop och privata tillställningar. Färdiga buffépaket med allt du behöver.",
             "linkUrl": "/catering/privat",
             "linkLabel": "Se privatmeny"
-        }
-    ],
-    "menuItems": [
-        { "name": "Kycklingenchiladas", "description":"Serveras med sallad","price": "110", "unit": "kr/person" },
-        { "name": "Viltfärsbiffar", "description":"Med kantarellsås och potatisgratäng","price": "130", "unit": "kr/person" },
-        { "name": "Ryggbiff", "description":"Med råstekt potatis och grönpepparsås", "price": "150", "unit": "kr/person" }
-    ],
-    "additionalMenus": [
-        {
-            "title": "Salladsbuffé",
-            "items": [
-                { "name": "Salladsbuffé", "description": "Med färska grönsaker, såser och bröd.", "price": "95", "unit": "kr/person" }
-            ]
-        },
-        {
-            "title": "Vegansk special",
-            "items": [
-                { "name": "Grillad grönsaksbowl", "description": "Med quinoa, hummus och örter.", "price": "120", "unit": "kr/person" }
-            ]
         }
     ]
 }

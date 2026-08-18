@@ -1,13 +1,9 @@
 {
     "openingHours": {
-        "title1": "Öppettider",
         "title2":"Mån–Fre 10.00–14.00",
         "text": "Öppet extra vid matcher, mässor och event. Se Facebook för aktuellt schema."
-    
+
     },
-    "phone":"+46 123 456 789",
-    "facebook":"https://www.facebook.com/profile.php?id=61582064433057",
-    "email":"info@gardehov.se",
     "lunchButtonLink": "https://www.matochmat.se/lunch/sundsvall/gardehov-restaurang-catering/",
     "lunchButtonText": "Se dagens meny →"
 

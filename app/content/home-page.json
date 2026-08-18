@@ -2,37 +2,5 @@
 "hero-subtitle": "Klassisk husmanskost i Sundsvall",
     "eyebrow": "Välkommen",
     "title": "Välkommen till Gärdehov",
-    "text1": "Här serveras klassisk husmanskost i en avslappnad miljö mitt i Gärdehov Arena.",
-    "text1-oanvand": "Välkommen till Gärdehov Restaurang & Catering i Sundsvall. Här serveras klassisk husmanskost i en avslappnad miljö mitt i Gärdehov Arena. Perfekt för en enkel och god lunch utan krångel. Du hittar oss på Johannedalsvägen 121. Ät gott, bli mätt och gå vidare med dagen.",
-    "image1": {
-        "url": "/images/sas.jpeg",
-        "alt": "Bild på bageri"
-    },
-    "text2": "Vi erbjuder ett brett sortiment av nybakade varor, från klassiska frallor till läckra tårtor och småkakor. Kom förbi och njut av vårt utbud eller beställ online!",
-    "links": [
-        {
-            "title": "Se vårt sortiment",
-            "linkUrl": "/sortiment/",
-            "imageUrl": "/images/tarta.jpg",
-            "imageAlt": "Bild på tårta"
-        },
-        {
-            "title": "Hitta till oss!",
-            "linkUrl": "/om-oss",
-            "imageUrl": "/images/bord-glas.jpeg",
-            "imageAlt": "Bild på bröd"
-        },
-        {
-            "title": "Kontakt",
-            "linkUrl": "/kontakt",
-            "imageUrl": "/images/sallad2.jpg",
-            "imageAlt": "Bild på sallad"
-        }
-    ],
-    "text3": "Vi är ett familjeägt bageri som har funnits i generationer. Allt vi gör är baserat på traditioner och kvalitet.",
-    "text4": "Vi bakar varje dag för att alltid kunna erbjuda våra kunder de allra färskaste produkterna.",
-    "imageBottom": {
-        "url": "/images/brod3.jpg",
-        "alt": "Bild på bröd"
-    }
+    "text1": "Här serveras klassisk husmanskost i en avslappnad miljö mitt i Gärdehov Arena."
 }
