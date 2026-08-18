@@ -16,8 +16,8 @@ const Hero: React.FC<HeroProps> = ({ title, subTitle, backgroundImage, height = 
                 backgroundPosition: "center",
             }}
         >
-            {/* overlay */}
-            <div className="absolute inset-0 bg-black/50" />
+            {/* overlay: darkest behind the centered text, fading out toward the edges so the image keeps its detail where there's no text */}
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_80%_at_center,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.55)_35%,rgba(0,0,0,0.15)_70%,rgba(0,0,0,0)_100%)]" />
 
             {/* content */}
             <div className="relative z-10 w-full flex justify-center items-center px-4">

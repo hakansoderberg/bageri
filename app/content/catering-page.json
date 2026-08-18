@@ -23,6 +23,20 @@
             "alt": "Bild på cateringmat"
         }
     },
+    "audienceCards": [
+        {
+            "title": "För företag",
+            "text": "Konferenser, möten, personalfester och kundevent. À la carte med pris per person.",
+            "linkUrl": "/catering/foretag",
+            "linkLabel": "Se företagsmeny"
+        },
+        {
+            "title": "För privatpersoner",
+            "text": "Fester, bröllop och privata tillställningar. Färdiga buffépaket med allt du behöver.",
+            "linkUrl": "/catering/privat",
+            "linkLabel": "Se privatmeny"
+        }
+    ],
     "menuItems": [
         { "name": "Kycklingenchiladas", "description":"Serveras med sallad","price": "110", "unit": "kr/person" },
         { "name": "Viltfärsbiffar", "description":"Med kantarellsås och potatisgratäng","price": "130", "unit": "kr/person" },

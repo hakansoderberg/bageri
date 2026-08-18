@@ -1,0 +1,30 @@
+{
+    "title": "Catering för företag",
+    "intro": "Vi hjälper er att lyckas med maten till möten, konferenser och företagsevent – från arbetslunch till festlig avslutning.",
+    "menuTitle": "Populära alternativ för företag",
+    "contact": {
+        "title": "Planerar ni ett företagsevent?",
+        "text": "Vi skräddarsyr gärna en meny som passar just ert företag och antal gäster. Kontakta oss så pratar vi vidare.",
+        "phone": "+46 123 456 789",
+        "email": "info@gardehov.se"
+    },
+    "images": {
+        "cateringImage": {
+            "url": "/images/catering.jpg",
+            "alt": "Bild på cateringmat för företag"
+        }
+    },
+    "menuItems": [
+        { "name": "Arbetslunch", "description": "Enklare rätt med sallad och bröd", "price": "95", "unit": "kr/person" },
+        { "name": "Konferenspaket", "description": "Fika, lunch och eftermiddagsfika", "price": "245", "unit": "kr/person" },
+        { "name": "Kvällsbuffé", "description": "Serveras vid företagsfester och avslutningar", "price": "195", "unit": "kr/person" }
+    ],
+    "additionalMenus": [
+        {
+            "title": "Fikapaket",
+            "items": [
+                { "name": "Fika med bakverk", "description": "Kaffe, te och hembakat", "price": "45", "unit": "kr/person" }
+            ]
+        }
+    ]
+}
