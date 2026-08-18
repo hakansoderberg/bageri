@@ -1,10 +1,12 @@
 {
     "title": "Catering för företag",
-    "intro": "Vi hjälper er att lyckas med maten till möten, konferenser och företagsevent – från arbetslunch till festlig avslutning.",
+    "eyebrow": "Företag",
+    "introTitle": "Mat som gör intryck",
+    "intro": "Vi tar hand om maten till arbetslunchen, konferensen eller företagsfesten, med allt från enkla smörgåsar till en flerrätters buffé. Se våra paket nedan, eller kontakta oss för en skräddarsydd lösning.",
     "menuTitle": "Populära alternativ för företag",
     "contact": {
         "title": "Planerar ni ett företagsevent?",
-        "text": "Vi skräddarsyr gärna en meny som passar just ert företag och antal gäster. Kontakta oss så pratar vi vidare.",
+        "text": "Berätta om antal gäster och tillfälle, så tar vi fram ett förslag som passar just er.",
         "phone": "+46 123 456 789",
         "email": "info@gardehov.se"
     },

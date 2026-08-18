@@ -1,10 +1,10 @@
 import ContactBox from "../../component/contact-box";
-import ContentSection from "../../component/content-section";
 import cateringContent from "../../content/catering-privat-page.json";
 import PageContainer from "../../component/page-container";
 import Hero from "../../component/hero";
-import CateringMenu from "../../component/catering-box";
-import SplitFeature from "../../component/split-feature";
+import BuffeCard from "../../component/buffe-card";
+import SlimContent from "../../component/slim-content";
+import TextPanel from "../../component/text-panel";
 
 const CateringPrivat = () => {
     return (
@@ -12,21 +12,25 @@ const CateringPrivat = () => {
             <Hero title={cateringContent.title} backgroundImage={"images/hero-catering.png"} height="40vh" />
             <PageContainer>
                 <div className="flex flex-col items-center">
-                    <SplitFeature image={cateringContent.images.cateringImage.url} imageAlt={cateringContent.images.cateringImage.alt}>
-                        <ContentSection title={cateringContent.title} text={cateringContent.intro} />
-                    </SplitFeature>
-                    <div className="mb-8"></div>
-                    <CateringMenu
-                        title={cateringContent.menuTitle}
-                        items={cateringContent.menuItems}
-                    />
+                    <SlimContent>
+                        <TextPanel
+                            eyebrow={cateringContent.eyebrow}
+                            title={cateringContent.introTitle}
+                            text={cateringContent.intro}
+                        />
+                    </SlimContent>
 
-                    <div className="mt-8 grid w-full gap-6 md:grid-cols-2">
-                        {cateringContent.additionalMenus.map((menu) => (
-                            <CateringMenu
-                                key={menu.title}
-                                title={menu.title}
-                                items={menu.items}
+                    <div className="mb-8"></div>
+                    <h2 className="font-merry font-semibold text-xl sm:text-2xl text-center tracking-wide sm:tracking-widest text-[var(--color-gold)] uppercase mb-8">
+                        {cateringContent.buffeTitle}
+                    </h2>
+                    <div className="grid w-full gap-6 md:grid-cols-2">
+                        {cateringContent.buffeAlternativ.map((buffe) => (
+                            <BuffeCard
+                                key={buffe.namn}
+                                namn={buffe.namn}
+                                ratter={buffe.ratter}
+                                pris={buffe.pris}
                             />
                         ))}
                     </div>

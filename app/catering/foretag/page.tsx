@@ -1,10 +1,10 @@
 import ContactBox from "../../component/contact-box";
-import ContentSection from "../../component/content-section";
 import cateringContent from "../../content/catering-foretag-page.json";
 import PageContainer from "../../component/page-container";
 import Hero from "../../component/hero";
 import CateringMenu from "../../component/catering-box";
-import SplitFeature from "../../component/split-feature";
+import SlimContent from "../../component/slim-content";
+import TextPanel from "../../component/text-panel";
 
 const CateringForetag = () => {
     return (
@@ -12,9 +12,14 @@ const CateringForetag = () => {
             <Hero title={cateringContent.title} backgroundImage={"images/hero-catering.png"} height="40vh" />
             <PageContainer>
                 <div className="flex flex-col items-center">
-                    <SplitFeature image={cateringContent.images.cateringImage.url} imageAlt={cateringContent.images.cateringImage.alt}>
-                        <ContentSection title={cateringContent.title} text={cateringContent.intro} />
-                    </SplitFeature>
+                    <SlimContent>
+                        <TextPanel
+                            eyebrow={cateringContent.eyebrow}
+                            title={cateringContent.introTitle}
+                            text={cateringContent.intro}
+                        />
+                    </SlimContent>
+
                     <div className="mb-8"></div>
                     <CateringMenu
                         title={cateringContent.menuTitle}
