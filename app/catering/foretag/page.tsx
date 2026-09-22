@@ -1,5 +1,6 @@
 import ContactBox from "../../component/contact-box";
 import cateringContent from "../../content/catering-foretag-page.json";
+import mainContent from "../../content/main.json";
 import PageContainer from "../../component/page-container";
 import Hero from "../../component/hero";
 import CateringMenu from "../../component/catering-box";
@@ -40,8 +41,8 @@ const CateringForetag = () => {
                     <ContactBox
                         title={cateringContent.contact.title}
                         text={cateringContent.contact.text}
-                        phone={cateringContent.contact.phone}
-                        email={cateringContent.contact.email}
+                        phone={mainContent.phone}
+                        email={mainContent.email}
                     />
                 </div>
             </PageContainer>

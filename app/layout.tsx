@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./component/header";
 import Footer from "./component/footer";
-import Hero from "./component/hero";
 
 export const metadata: Metadata = {
-    title: "Hagabagarn",
-    description: "Hagabagarn",
+    title: "Gärdehov restaurang & catering",
+    description: "Gärdehov restaurang & catering",
 };
 
 export default function RootLayout({

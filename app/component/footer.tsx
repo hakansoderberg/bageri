@@ -1,3 +1,5 @@
+import mainContent from "../content/main.json";
+
 const footerLinkStyle =
     "text-sm text-[var(--color-text-offwhite)] hover:text-[var(--color-gold)] transition-colors";
 const footerTextStyle = "text-sm text-[var(--color-text-muted)] leading-relaxed";
@@ -13,11 +15,21 @@ const Footer = () => {
                         <h3 className={footerHeadingStyle}>Kontakt</h3>
                         <ul className="space-y-2">
                             <li className={`${footerTextStyle} text-[var(--color-text-offwhite)] font-semibold`}>
-                                Företagsnamn AB
+                                Gärdehov restaurang & catering
                             </li>
-                            <li className={footerTextStyle}>Adress: Gatan 123, 123 45 Stad</li>
-                            <li className={footerTextStyle}>Telefon: 012-345 67 89</li>
-                            <li className={footerTextStyle}>Email: kontakt@foretag.com</li>
+                            <li className={footerTextStyle}>Adress: Johannedalsvägen 121 Sundsvall</li>
+                            <li className={footerTextStyle}>
+                                Telefon:{" "}
+                                <a href={`tel:${mainContent.phone.replace(/[\s-]/g, "")}`} className={footerLinkStyle}>
+                                    {mainContent.phone}
+                                </a>
+                            </li>
+                            <li className={footerTextStyle}>
+                                Email:{" "}
+                                <a href={`mailto:${mainContent.email}`} className={footerLinkStyle}>
+                                    {mainContent.email}
+                                </a>
+                            </li>
                         </ul>
                     </div>
 
@@ -26,7 +38,7 @@ const Footer = () => {
                         <ul className="space-y-2">
                             <li>
                                 <a
-                                    href="https://www.facebook.com"
+                                    href={mainContent.facebook}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className={footerLinkStyle}
@@ -36,7 +48,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="https://www.instagram.com"
+                                    href={mainContent.instagram}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className={footerLinkStyle}
@@ -50,7 +62,7 @@ const Footer = () => {
 
                 <div className="mt-12 pt-6 border-t border-[var(--color-gold)]/10 text-center">
                     <p className="text-xs text-[var(--color-gold-soft)] mb-0">
-                        &copy; {new Date().getFullYear()} Företagsnamn AB
+                        &copy; Gärdehov restaurang & catering. Alla rättigheter förbehållna.
                     </p>
                 </div>
             </div>

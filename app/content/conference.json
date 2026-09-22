@@ -11,9 +11,7 @@
     "contact": {
         "eyebrow": "Konferens",
         "title": "Kontakta oss så berättar vi mer",
-        "text": "Vi hjälper er att hitta rätt upplägg för ert möte — och bokar in datumet direkt.",
-        "phone": "060-19 00 00",
-        "email": "info@gardehov.se"
+        "text": "Vi hjälper er att hitta rätt upplägg för ert möte — och bokar in datumet direkt."
     },
     "gallery": [
         { "url": "/images/bord-glas.jpeg", "alt": "Dukat bord med glas" },

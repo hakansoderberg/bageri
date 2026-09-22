@@ -5,6 +5,7 @@ import PageContainer from "../component/page-container";
 import SlimContent from "../component/slim-content";
 import TextPanel from "../component/text-panel";
 import conferenceContent from "../content/conference.json";
+import mainContent from "../content/main.json";
 import ContactBox from "../component/contact-box";
 
 const featureIcons = [Users, Monitor, Sparkles, CheckCircle];
@@ -73,9 +74,8 @@ const ConferencePage = () => {
                         <ContactBox
                             title={conferenceContent.contact.title}
                             text={conferenceContent.contact.text}
-                            phone={conferenceContent.contact.phone}
-                            email={conferenceContent.contact.email}
-                            
+                            phone={mainContent.phone}
+                            email={mainContent.email}
                         />
                     </div>
                 </div>

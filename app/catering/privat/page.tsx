@@ -1,5 +1,6 @@
 import ContactBox from "../../component/contact-box";
 import cateringContent from "../../content/catering-privat-page.json";
+import mainContent from "../../content/main.json";
 import PageContainer from "../../component/page-container";
 import Hero from "../../component/hero";
 import BuffeCard from "../../component/buffe-card";
@@ -39,8 +40,8 @@ const CateringPrivat = () => {
                     <ContactBox
                         title={cateringContent.contact.title}
                         text={cateringContent.contact.text}
-                        phone={cateringContent.contact.phone}
-                        email={cateringContent.contact.email}
+                        phone={mainContent.phone}
+                        email={mainContent.email}
                     />
                 </div>
             </PageContainer>

@@ -6,9 +6,7 @@
     "menuTitle": "Populära alternativ för företag",
     "contact": {
         "title": "Planerar ni ett företagsevent?",
-        "text": "Berätta om antal gäster och tillfälle, så tar vi fram ett förslag som passar just er.",
-        "phone": "+46 123 456 789",
-        "email": "info@gardehov.se"
+        "text": "Berätta om antal gäster och tillfälle, så tar vi fram ett förslag som passar just er."
     },
     "menuItems": [
         { "name": "Arbetslunch", "description": "Enklare rätt med sallad och bröd", "price": "95", "unit": "kr/person" },
@@ -20,6 +18,13 @@
             "title": "Fikapaket",
             "items": [
                 { "name": "Fika med bakverk", "description": "Kaffe, te och hembakat", "price": "45", "unit": "kr/person" }
+            ]
+        },
+        {
+            "title": "Sallader",
+            "items": [
+                { "name": "Kycklingsallad", "price": "85", "unit": "kr" },
+                { "name": "Räksallad", "price": "100", "unit": "kr" }
             ]
         }
     ]

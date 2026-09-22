@@ -5,32 +5,37 @@
     "intro": "Vi lagar maten till kalaset, bröllopet, dopet eller studentfirandet, så att du kan ägna dagen åt dina gäster istället för köket. Se våra populära alternativ nedan, eller hör av dig om du har egna önskemål.",
     "contact": {
         "title": "Har du egna önskemål?",
-        "text": "Berätta om ditt sällskap och tillfälle, så komponerar vi en meny som passar er perfekt.",
-        "phone": "+46 123 456 789",
-        "email": "info@gardehov.se"
+        "text": "Berätta om ditt sällskap och tillfälle, så komponerar vi en meny som passar er perfekt."
     },
     "buffeTitle": "Buffealternativ",
     "buffeAlternativ": [
         {
             "namn": "Husmanskost",
             "ratter": [
-                "Köttbullar med gräddsås",
-                "Kokt potatis",
-                "Lingonsylt & pressgurka",
-                "Färsk salladsbuffé"
+                "Dubbelmarinerad fläskfilé",
+                "Kycklingspett",
+                "Potatissallad med vitlök, paprika och äpple",
+                "Tomat och fetaostsallad",
+                "Chilibearnaise",
+                "Svartpeppar och örtsås",
+                "Exotiskt fruktfat och fetaostkräm",
+                "Pain riche och skagenröra" 
             ],
-            "pris": "245"
+            "pris": "259"
         },
         {
             "namn": "Festbuffé",
             "ratter": [
-                "Grillad lammfilé",
-                "Rostad rosmarinpotatis",
-                "Gremolata",
-                "Sommarsallad",
-                "Hembakat vitlöksbröd"
+                "Dubbelmarinerad fläskfilé",
+                "Marinerad kycklingfile",
+                "Potatisgratäng",
+                "Tomat och fetaostsallad",
+                "Chilibearnaise",
+                "Pepparsås",
+                "Exotiskt fruktfat och fetaostkräm",
+                "Pain riche och skagenröra"
             ],
-            "pris": "295"
+            "pris": "269"
         }
     ]
 }
