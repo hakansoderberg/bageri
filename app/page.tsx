@@ -13,7 +13,6 @@ const Home = () => {
                 <Hero
                     backgroundImage={"images/hero2.jpg"}
                     title={content["hero-title"]}
-                    subTitle={content["hero-subtitle"]}
                 ></Hero>
                 <PageContainer>
                     <div className="flex flex-col items-center justify-between mb-8 md:mb-16">
