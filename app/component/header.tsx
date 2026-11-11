@@ -11,7 +11,6 @@ const Header = () => {
     { href: "/lunch", text: "Lunch" },
     { href: "/catering", text: "Catering" },
     { href: "/konferens", text: "Konferens" },
-    { href: "/bar", text: "Bar & Evenemang" },
 ];
     return (
         <header className="bg-navy-deep py-4 ">
