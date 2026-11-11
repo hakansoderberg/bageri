@@ -55,5 +55,34 @@
                 }
             ]
         }
+    ],
+    "offeringsTitle": "Vi erbjuder även",
+    "offerings": [
+        {
+            "name": "Smörgåstårtor",
+            "icon": "cake"
+        },
+        {
+            "name": "Bufféer",
+            "icon": "buffet"
+        },
+        {
+            "name": "Smörgåsar",
+            "icon": "sandwich"
+        },
+        {
+            "name": "Sallader",
+            "icon": "salad"
+        },
+        {
+            "name": "Leverans",
+            "note": "Enligt överenskommelse",
+            "icon": "truck"
+        },
+        {
+            "name": "Specialkost",
+            "note": "Och allergianpassning vid behov",
+            "icon": "heart"
+        }
     ]
 }

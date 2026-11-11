@@ -6,6 +6,7 @@ import Hero from "../../component/hero";
 import CateringMenu from "../../component/catering-box";
 import SlimContent from "../../component/slim-content";
 import TextPanel from "../../component/text-panel";
+import Offerings from "../../component/offerings";
 
 const CateringForetag = () => {
     return (
@@ -37,7 +38,10 @@ const CateringForetag = () => {
                         ))}
                     </div>
 
-                    <div className="mb-8"></div>
+                    <div className="mb-12"></div>
+                    <Offerings title={cateringContent.offeringsTitle} items={cateringContent.offerings} />
+
+                    <div className="mb-12"></div>
                     <ContactBox
                         title={cateringContent.contact.title}
                         text={cateringContent.contact.text}
