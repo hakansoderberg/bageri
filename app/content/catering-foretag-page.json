@@ -2,29 +2,57 @@
     "title": "Catering för företag",
     "eyebrow": "Företag",
     "introTitle": "Mat som gör intryck",
-    "intro": "Vi tar hand om maten till arbetslunchen, konferensen eller företagsfesten, med allt från enkla smörgåsar till en flerrätters buffé. Se våra paket nedan, eller kontakta oss för en skräddarsydd lösning.",
-    "menuTitle": "Populära alternativ för företag",
+    "intro": "Låt oss ta hand om maten! Vi erbjuder vällagad mat med hög kvalitet, perfekt för alla typer av tillställningar. Vi skräddarsyr gärna en meny som passar just era önskemål.",
+    "menuTitle": "Våra populära alternativ",
     "contact": {
         "title": "Planerar ni ett företagsevent?",
-        "text": "Berätta om antal gäster och tillfälle, så tar vi fram ett förslag som passar just er."
+        "text": "Vi erbjuder förmånliga priser vid större beställningar och hjälper gärna tll att ta fram en meny som passar just ert företag"
     },
     "menuItems": [
-        { "name": "Arbetslunch", "description": "Enklare rätt med sallad och bröd", "price": "95", "unit": "kr/person" },
-        { "name": "Konferenspaket", "description": "Fika, lunch och eftermiddagsfika", "price": "245", "unit": "kr/person" },
-        { "name": "Kvällsbuffé", "description": "Serveras vid företagsfester och avslutningar", "price": "195", "unit": "kr/person" }
+        {
+            "name": "Ryggbiff",
+            "description": "Med grönpepparsås och råstekt potatis",
+            "price": "220",
+            "unit": "kr/person"
+        },
+        {
+            "name": "Viltfärsbiffar",
+            "description": "Med kantarellsås och potatisgratäng",
+            "price": "180",
+            "unit": "kr/person"
+        },
+        {
+            "name": "Kycklingenchiladas",
+            "description": "Serveras med sallad",
+            "price": "130",
+            "unit": "kr/person"
+        }
     ],
     "additionalMenus": [
         {
-            "title": "Fikapaket",
+            "title": "Sallader",
             "items": [
-                { "name": "Fika med bakverk", "description": "Kaffe, te och hembakat", "price": "45", "unit": "kr/person" }
+                {
+                    "name": "Kycklingsallad",
+                    "price": "85",
+                    "unit": "kr"
+                },
+                {
+                    "name": "Räksallad",
+                    "price": "100",
+                    "unit": "kr"
+                }
             ]
         },
         {
-            "title": "Sallader",
+            "title": "Dagens lunch som matlåda",
             "items": [
-                { "name": "Kycklingsallad", "price": "85", "unit": "kr" },
-                { "name": "Räksallad", "price": "100", "unit": "kr" }
+                {
+                    "name": "Dagens lunch",
+                    "description": "Beställ valfri rätt från dagens lunchmeny som matlåda",
+                    "price": "135",
+                    "unit": "kr"
+                }
             ]
         }
     ]
